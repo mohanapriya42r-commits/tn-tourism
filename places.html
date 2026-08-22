@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tourist Places | Tamil Nadu Tourism</title>
+  <meta name="description" content="Search and filter tourist destinations in Tamil Nadu by District, Category, Rating, and Entry Fees.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">🛕</div>
+        <span>Tamil Nadu <span class="text-gradient">Tourism</span></span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="places.html" class="nav-link active">Tourist Places</a>
+        <a href="categories.html" class="nav-link">Categories</a>
+        <a href="trip-planner.html" class="nav-link text-gradient" style="font-weight:700;">✨ Trip Planner</a>
+        <a href="hotels.html" class="nav-link">Hotels</a>
+        <a href="restaurants.html" class="nav-link">Restaurants</a>
+        <a href="emergency.html" class="nav-link text-teal">🚨 Emergency Help</a>
+      </nav>
+
+      <div class="nav-actions" id="nav-actions"></div>
+      <button class="mobile-menu-btn">☰</button>
+    </div>
+  </header>
+
+  <main class="main-content">
+
+    <!-- Header Banner -->
+    <section style="padding: 3rem 0 2rem; background: linear-gradient(to bottom, rgba(217, 119, 6, 0.1), transparent);">
+      <div class="container">
+        <div style="display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:1rem;">
+          <div>
+            <div class="section-subtitle">EXPLORE DESTINATIONS</div>
+            <h1 style="font-size:2.5rem;">Tamil Nadu Tourist Places</h1>
+            <p style="color:var(--text-muted); margin-top:0.3rem;">Discover temple heritage, misty hills, cascading waterfalls, and golden beaches.</p>
+          </div>
+          <div id="places-count-badge" class="badge badge-primary" style="font-size:0.9rem; padding:0.5rem 1rem;">
+            Loading destinations...
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Search & Filter Controls -->
+    <section class="section" style="padding-top: 1rem;">
+      <div class="container">
+        
+        <div class="glass-card" style="padding: 1.5rem; margin-bottom: 2.5rem;">
+          <div style="display:grid; grid-template-columns: 2fr 1.5fr 1.5fr 1fr auto; gap: 1rem; align-items:center;" class="places-filter-bar">
+            <div class="form-group">
+              <label for="filter-search">Search Keywords</label>
+              <input type="text" id="filter-search" class="form-input" placeholder="Search place name or keywords...">
+            </div>
+
+            <div class="form-group">
+              <label for="filter-district">Filter District</label>
+              <select id="filter-district" class="form-select">
+                <!-- Populated by script -->
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="filter-category">Filter Category</label>
+              <select id="filter-category" class="form-select">
+                <!-- Populated by script -->
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="sort-by">Sort By</label>
+              <select id="sort-by" class="form-select">
+                <option value="rating">Highest Rated</option>
+                <option value="popular">Most Popular</option>
+                <option value="name">Alphabetical</option>
+              </select>
+            </div>
+
+            <button onclick="resetPlacesFilters()" class="btn btn-outline" style="margin-top:auto; height:46px;">
+              Reset 🔄
+            </button>
+          </div>
+        </div>
+
+        <!-- Places Grid -->
+        <div class="places-grid" id="places-grid-container">
+          <!-- Rendered dynamically -->
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <div>© 2026 Tamil Nadu Tourism & Smart Trip Planner.</div>
+        <div>All 38 Districts Covered</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/places-page.js"></script>
+</body>
+</html>

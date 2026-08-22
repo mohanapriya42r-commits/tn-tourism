@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tamil Nadu Tourism & Smart Trip Planner | Discover Temples, Beaches, Hills</title>
+  <meta name="description" content="Explore Tamil Nadu tourist destinations, heritage temples, hill stations, beaches, and generate personalized trip plans with budget calculation.">
+
+  <!-- Core CSS & Fonts -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">🛕</div>
+        <span>Tamilnadu<span class="text-gradient">Tourism</span></span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="places.html" class="nav-link">Tourist Places</a>
+        <a href="categories.html" class="nav-link">Categories</a>
+        <a href="trip-planner.html" class="nav-link text-gradient" style="font-weight:700;">✨ Trip Planner</a>
+        <a href="hotels.html" class="nav-link">Hotels</a>
+        <a href="restaurants.html" class="nav-link">Restaurants</a>
+        <a href="emergency.html" class="nav-link text-teal">🚨 Emergency Help</a>
+      </nav>
+
+      <div class="nav-actions" id="nav-actions">
+        <!-- Injected dynamically by app.js -->
+      </div>
+
+      <button class="mobile-menu-btn" aria-label="Toggle mobile menu">☰</button>
+    </div>
+  </header>
+
+  <main class="main-content">
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-bg">
+        <img src="https://images.unsplash.com/photo-1600100397608-f090742f4fa4?auto=format&fit=crop&w=1920&q=80" alt="Tamil Nadu Temple Banner">
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="container hero-content">
+        <div class="hero-tag">
+          <span>✨ Official Smart Travel Portal</span>
+        </div>
+        <h1 class="hero-title">
+          Explore Tamil Nadu – Discover <span class="text-gradient">Temples, Beaches, Hills</span> & Heritage
+        </h1>
+        <p class="hero-subtitle">
+          Experience 2,500 years of living Dravidian culture, UNESCO monuments, mist-capped Nilgiri peaks, and sacred coastal waters with AI-assisted smart trip planning.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="places.html" class="btn btn-primary btn-lg">Explore Tamil Nadu 🗺️</a>
+          <a href="trip-planner.html" class="btn btn-secondary btn-lg">Plan My Trip ✨</a>
+        </div>
+
+        <!-- Quick Search Bar Form -->
+        <div class="hero-search-box">
+          <form class="search-form" onsubmit="handleGlobalSearch(event)">
+            <div class="form-group">
+              <label for="hero-search-query">Search Destination</label>
+              <input type="text" id="hero-search-query" class="form-input" placeholder="e.g. Meenakshi, Ooty, Marina Beach...">
+            </div>
+            <div class="form-group">
+              <label for="hero-search-district">District</label>
+              <select id="hero-search-district" class="form-select">
+                <option value="">All Districts</option>
+                <option value="Madurai">Madurai</option>
+                <option value="Chennai">Chennai</option>
+                <option value="The Nilgiris (Ooty)">The Nilgiris (Ooty)</option>
+                <option value="Dindigul (Kodaikanal)">Dindigul (Kodaikanal)</option>
+                <option value="Thanjavur">Thanjavur</option>
+                <option value="Ramanathapuram (Rameswaram)">Rameswaram</option>
+                <option value="Kanyakumari">Kanyakumari</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="hero-search-category">Category</label>
+              <select id="hero-search-category" class="form-select">
+                <option value="">All Categories</option>
+                <option value="temples">Temples</option>
+                <option value="beaches">Beaches</option>
+                <option value="hillstations">Hill Stations</option>
+                <option value="waterfalls">Waterfalls</option>
+                <option value="historical">Historical</option>
+                <option value="wildlife">Wildlife</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-primary" style="height:48px; margin-top:auto;">
+              Search 🔍
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Popular Categories Showcase -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-subtitle">CURATED EXPERIENCES</div>
+          <h2 class="section-title">Explore by Tourism Categories</h2>
+          <p class="section-description">Choose from 13 distinct travel categories across all 38 districts of Tamil Nadu.</p>
+        </div>
+
+        <div class="categories-grid">
+          <div class="category-card" onclick="window.location.href='places.html?category=temples'">
+            <div class="category-icon">🛕</div>
+            <div class="category-name">Temples & Shrines</div>
+            <div class="category-count">33,000+ Ancient Temples</div>
+          </div>
+          <div class="category-card" onclick="window.location.href='places.html?category=beaches'">
+            <div class="category-icon">🏖️</div>
+            <div class="category-name">Beaches & Oceans</div>
+            <div class="category-count">1,076 km Coastline</div>
+          </div>
+          <div class="category-card" onclick="window.location.href='places.html?category=hillstations'">
+            <div class="category-icon">⛰️</div>
+            <div class="category-name">Hill Stations</div>
+            <div class="category-count">Ooty, Kodaikanal, Yercaud</div>
+          </div>
+          <div class="category-card" onclick="window.location.href='places.html?category=waterfalls'">
+            <div class="category-icon">💧</div>
+            <div class="category-name">Cascading Waterfalls</div>
+            <div class="category-count">Courtallam, Hogenakkal</div>
+          </div>
+          <div class="category-card" onclick="window.location.href='places.html?category=historical'">
+            <div class="category-icon">🏛️</div>
+            <div class="category-name">UNESCO Heritage</div>
+            <div class="category-count">Great Living Chola Temples</div>
+          </div>
+          <div class="category-card" onclick="window.location.href='places.html?category=wildlife'">
+            <div class="category-icon">🦁</div>
+            <div class="category-name">Wildlife & Reserves</div>
+            <div class="category-count">Mudumalai, Anamalai</div>
+          </div>
+        </div>
+
+        <div style="text-align:center; margin-top:2.5rem;">
+          <a href="categories.html" class="btn btn-outline">View All 13 Categories →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Top Featured Destinations -->
+    <section class="section" style="background: rgba(17, 24, 39, 0.4);">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-subtitle">MUST-VISIT PLACES</div>
+          <h2 class="section-title">Top Rated Tourist Places</h2>
+          <p class="section-description">Handpicked iconic destinations loved by travelers worldwide.</p>
+        </div>
+
+        <div class="places-grid" id="home-featured-places">
+          <!-- Populated by script -->
+        </div>
+
+        <div style="text-align:center; margin-top:3rem;">
+          <a href="places.html" class="btn btn-primary btn-lg">Explore All Destinations 🗺️</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Smart Trip Planner Teaser Banner -->
+    <section class="section">
+      <div class="container">
+        <div class="glass-card" style="padding:3.5rem 2rem; text-align:center; background: linear-gradient(135deg, rgba(13, 148, 136, 0.2), rgba(217, 119, 6, 0.2));">
+          <span class="badge badge-primary" style="margin-bottom:1rem;">SMART TRAVEL ENGINE</span>
+          <h2 style="font-size:2.5rem; margin-bottom:1rem;">Generate Your Custom Day-Wise Itinerary</h2>
+          <p style="max-width:700px; margin:0 auto 2rem; color:var(--text-muted); font-size:1.1rem;">
+            Select your starting location, travel days, group size, and budget level. Our smart algorithm computes distance, estimated costs, day-by-day sightseeing timeline, and hotel/restaurant picks.
+          </p>
+          <a href="trip-planner.html" class="btn btn-primary btn-lg">Start Planning Now ✨</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <div class="logo">
+            <div class="logo-icon">🛕</div>
+            <span>Tamil Nadu <span class="text-gradient">Tourism</span></span>
+          </div>
+          <p>Discover the enchanting land of ancient Dravidian architecture, mist-covered mountain valleys, sacred coastlines, and rich culinary heritage.</p>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="places.html">Tourist Places</a></li>
+            <li><a href="categories.html">Categories</a></li>
+            <li><a href="trip-planner.html">Smart Trip Planner</a></li>
+            <li><a href="hotels.html">Nearby Hotels</a></li>
+            <li><a href="restaurants.html">Restaurants</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Support & Safety</h4>
+          <ul class="footer-links">
+            <li><a href="emergency.html">🚨 24x7 Emergency Hub</a></li>
+            <li><a href="tel:108">Ambulance (108)</a></li>
+            <li><a href="tel:100">Police Control (100)</a></li>
+            <li><a href="tel:181">Women Helpline (181)</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Tourism Contact</h4>
+          <p style="color:var(--text-muted); font-size:0.9rem; margin-bottom:0.5rem;">Tamil Nadu Tourism Complex, Wallajah Road, Chennai - 600002</p>
+          <p style="color:var(--text-muted); font-size:0.9rem;">Toll-Free: 1800-425-3111</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 Tamil Nadu Tourism & Smart Trip Planner. All Rights Reserved.</div>
+        <div>Designed for Seamless & Safe Travel across Tamil Nadu</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const container = document.getElementById('home-featured-places');
+      if (container && window.TN_DATA) {
+        const featured = window.TN_DATA.places.slice(0, 3);
+        const favs = getFavorites();
+        container.innerHTML = featured.map(place => `
+          <div class="place-card">
+            <div class="place-img-wrap">
+              <img src="${place.image}" alt="${place.name}">
+              <button class="place-fav-btn fav-btn-${place.id} ${favs.includes(place.id) ? 'active' : ''}" 
+                      onclick="toggleFavorite('${place.id}', event)">
+                ❤️
+              </button>
+              <div class="place-rating-badge">★ ${place.rating}</div>
+            </div>
+            <div class="place-content">
+              <div class="place-meta">
+                <span class="badge badge-secondary">${place.district}</span>
+                <span class="badge badge-primary">${place.categoryName.split(' ')[0]}</span>
+              </div>
+              <h3 class="place-title">${place.name}</h3>
+              <p class="place-desc">${place.shortDesc}</p>
+              <div class="place-footer">
+                <div style="font-size:0.85rem; color:var(--text-muted);">⏱️ ${place.openTime}</div>
+                <a href="place-details.html?id=${place.id}" class="btn btn-primary btn-sm">View Details →</a>
+              </div>
+            </div>
+          </div>
+        `).join('');
+      }
+    });
+  </script>
+</body>
+</html>

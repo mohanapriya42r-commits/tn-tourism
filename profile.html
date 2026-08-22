@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Profile | Tamil Nadu Tourism</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">🛕</div>
+        <span>Tamil Nadu <span class="text-gradient">Tourism</span></span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="places.html" class="nav-link">Tourist Places</a>
+        <a href="categories.html" class="nav-link">Categories</a>
+        <a href="trip-planner.html" class="nav-link text-gradient" style="font-weight:700;">✨ Trip Planner</a>
+        <a href="hotels.html" class="nav-link">Hotels</a>
+        <a href="restaurants.html" class="nav-link">Restaurants</a>
+        <a href="emergency.html" class="nav-link text-teal">🚨 Emergency Help</a>
+      </nav>
+
+      <div class="nav-actions" id="nav-actions"></div>
+      <button class="mobile-menu-btn">☰</button>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <section class="section">
+      <div class="container" style="max-width:900px;">
+        
+        <!-- User Profile Info Card -->
+        <div class="glass-card" style="padding:2.5rem; margin-bottom:2.5rem;" id="profile-info-card">
+          <!-- Populated by script -->
+        </div>
+
+        <!-- Saved Trips List -->
+        <div class="glass-card" style="padding:2.5rem;">
+          <h2 style="font-size:1.6rem; margin-bottom:1.5rem;">🗺️ My Saved Trip Itineraries</h2>
+          <div id="saved-trips-list">
+            <!-- Populated by script -->
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <div>© 2026 Tamil Nadu Tourism & Smart Trip Planner.</div>
+        <div>User Account & Saved Trips</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const user = getCurrentUser();
+      if (!user) {
+        window.location.href = 'login.html';
+        return;
+      }
+
+      renderProfileInfo(user);
+      renderSavedTrips();
+    });
+
+    function renderProfileInfo(user) {
+      const card = document.getElementById('profile-info-card');
+      const favsCount = getFavorites().length;
+
+      card.innerHTML = `
+        <div style="display:flex; align-items:center; gap:1.8rem; flex-wrap:wrap;">
+          <div style="width:80px; height:80px; background:linear-gradient(135deg, #f59e0b, #d97706); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:2.5rem; font-weight:800; color:#fff;">
+            ${user.name.charAt(0).toUpperCase()}
+          </div>
+          <div style="flex:1;">
+            <h1 style="font-size:2rem; margin-bottom:0.3rem;">${user.name}</h1>
+            <p style="color:var(--text-muted); font-size:0.95rem;">📧 ${user.email} ${user.mobile ? ' | 📱 ' + user.mobile : ''}</p>
+            <div style="display:flex; gap:1rem; margin-top:1rem;">
+              <a href="favorites.html" class="badge badge-primary" style="font-size:0.85rem; padding:0.4rem 0.8rem;">
+                ❤️ ${favsCount} Favorites Saved
+              </a>
+            </div>
+          </div>
+          <div>
+            <button onclick="logoutUser()" class="btn btn-danger btn-sm">Logout Account</button>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderSavedTrips() {
+      const container = document.getElementById('saved-trips-list');
+      const savedTripsStr = localStorage.getItem('tn_saved_trips');
+      const savedTrips = savedTripsStr ? JSON.parse(savedTripsStr) : [];
+
+      if (savedTrips.length === 0) {
+        container.innerHTML = `
+          <div style="text-align:center; padding:2rem 0; color:var(--text-muted);">
+            <p>You haven't saved any trip itineraries yet.</p>
+            <a href="trip-planner.html" class="btn btn-primary btn-sm" style="margin-top:1rem;">Plan a New Trip ✨</a>
+          </div>
+        `;
+        return;
+      }
+
+      container.innerHTML = savedTrips.map(trip => `
+        <div class="glass-card" style="padding:1.5rem; margin-bottom:1.2rem; border-color:var(--border-dark);">
+          <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.6rem; flex-wrap:wrap; gap:0.5rem;">
+            <div>
+              <h3 style="font-size:1.3rem; color:#fbbf24;">${trip.days} Days Trip to ${trip.destination}</h3>
+              <p style="font-size:0.85rem; color:var(--text-muted);">Source: ${trip.source} | Start Date: ${trip.startDate} | ${trip.travelers} Travelers</p>
+            </div>
+            <div style="font-size:1.3rem; font-weight:800; color:#2dd4bf;">
+              Estimated: ₹${trip.costs.total.toLocaleString()}
+            </div>
+          </div>
+
+          <div style="border-top:1px solid var(--border-dark); padding-top:0.8rem; margin-top:0.8rem; font-size:0.85rem; color:var(--text-muted);">
+            Includes ${trip.itinerary.length} days of sightseeing, transportation estimates, and hotel stay suggestions.
+          </div>
+        </div>
+      `).join('');
+    }
+  </script>
+</body>
+</html>

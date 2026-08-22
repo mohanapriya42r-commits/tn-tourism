@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>24/7 Tourist Emergency Help | Tamil Nadu Tourism</title>
+  <meta name="description" content="Instant 24x7 tourist emergency helpline numbers, hospitals, police stations, and pharmacies across all Tamil Nadu districts.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">🛕</div>
+        <span>Tamil Nadu <span class="text-gradient">Tourism</span></span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="places.html" class="nav-link">Tourist Places</a>
+        <a href="categories.html" class="nav-link">Categories</a>
+        <a href="trip-planner.html" class="nav-link text-gradient" style="font-weight:700;">✨ Trip Planner</a>
+        <a href="hotels.html" class="nav-link">Hotels</a>
+        <a href="restaurants.html" class="nav-link">Restaurants</a>
+        <a href="emergency.html" class="nav-link active text-teal">🚨 Emergency Help</a>
+      </nav>
+
+      <div class="nav-actions" id="nav-actions"></div>
+      <button class="mobile-menu-btn">☰</button>
+    </div>
+  </header>
+
+  <main class="main-content">
+
+    <section style="padding: 3rem 0 2rem; background: linear-gradient(to bottom, rgba(239, 68, 68, 0.15), transparent);">
+      <div class="container" style="text-align:center;">
+        <span class="badge badge-danger" style="margin-bottom:0.6rem;">24/7 SAFETY HUB</span>
+        <h1 style="font-size:2.6rem;">Tourist Emergency Assistance</h1>
+        <p style="color:var(--text-muted); max-width:600px; margin:0.4rem auto 0;">
+          Immediate one-touch helpline access to medical services, police patrols, tourist protection desks, and 24-hour pharmacies.
+        </p>
+      </div>
+    </section>
+
+    <!-- Speed Dial Hotline Cards -->
+    <section class="section" style="padding-top:1rem; padding-bottom:2rem;">
+      <div class="container">
+        
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:1.5rem; margin-bottom:3rem;">
+          <a href="tel:108" class="glass-card" style="padding:1.8rem; text-align:center; border-color:rgba(239,68,68,0.4);">
+            <span style="font-size:2.5rem; display:block; margin-bottom:0.5rem;">🚑</span>
+            <h3 style="color:#f87171; font-size:1.3rem;">108</h3>
+            <p style="font-weight:700; color:#fff;">Ambulance SOS</p>
+            <p style="font-size:0.8rem; color:var(--text-muted); margin-top:0.3rem;">Free Emergency Medical Service</p>
+          </a>
+
+          <a href="tel:100" class="glass-card" style="padding:1.8rem; text-align:center; border-color:rgba(13,148,136,0.4);">
+            <span style="font-size:2.5rem; display:block; margin-bottom:0.5rem;">🚓</span>
+            <h3 style="color:#2dd4bf; font-size:1.3rem;">100</h3>
+            <p style="font-weight:700; color:#fff;">Police Control</p>
+            <p style="font-size:0.8rem; color:var(--text-muted); margin-top:0.3rem;">Immediate Law & Order</p>
+          </a>
+
+          <a href="tel:181" class="glass-card" style="padding:1.8rem; text-align:center; border-color:rgba(245,158,11,0.4);">
+            <span style="font-size:2.5rem; display:block; margin-bottom:0.5rem;">👩</span>
+            <h3 style="color:#fbbf24; font-size:1.3rem;">181</h3>
+            <p style="font-weight:700; color:#fff;">Women Helpline</p>
+            <p style="font-size:0.8rem; color:var(--text-muted); margin-top:0.3rem;">24/7 Safety & Assistance</p>
+          </a>
+
+          <a href="tel:1363" class="glass-card" style="padding:1.8rem; text-align:center; border-color:rgba(59,130,246,0.4);">
+            <span style="font-size:2.5rem; display:block; margin-bottom:0.5rem;">ℹ️</span>
+            <h3 style="color:#60a5fa; font-size:1.3rem;">1363</h3>
+            <p style="font-weight:700; color:#fff;">Tourist Helpline</p>
+            <p style="font-size:0.8rem; color:var(--text-muted); margin-top:0.3rem;">Incredible India & TN Support</p>
+          </a>
+        </div>
+
+        <!-- District Emergency Locator -->
+        <div class="glass-card" style="padding:2rem;">
+          <h2 style="font-size:1.6rem; margin-bottom:1.2rem; display:flex; align-items:center; gap:0.5rem;">
+            🏥 District Emergency Directory
+          </h2>
+
+          <div style="max-width:400px; margin-bottom:2rem;">
+            <label for="emerg-district-select" style="font-size:0.85rem; color:var(--text-muted); font-weight:600;">SELECT YOUR DISTRICT</label>
+            <select id="emerg-district-select" class="form-select" style="margin-top:0.4rem;" onchange="renderDistrictEmergency(this.value)">
+              <option value="">-- Select District --</option>
+              <!-- Populated by script -->
+            </select>
+          </div>
+
+          <div id="emerg-district-results" class="emergency-card-grid">
+            <p style="color:var(--text-muted); grid-column:1/-1;">Select a district above to view hospital, police station, and pharmacy details.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <div>© 2026 Tamil Nadu Tourism & Smart Trip Planner.</div>
+        <div>24/7 Emergency Response Infrastructure</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const select = document.getElementById('emerg-district-select');
+      if (select && window.TN_DATA) {
+        select.innerHTML = `<option value="">All Districts</option>` + 
+          window.TN_DATA.districts.map(d => `<option value="${d}">${d}</option>`).join('');
+      }
+      renderDistrictEmergency('');
+    });
+
+    function renderDistrictEmergency(district) {
+      const container = document.getElementById('emerg-district-results');
+      if (!container || !window.TN_DATA) return;
+
+      const items = [];
+      window.TN_DATA.places.forEach(place => {
+        if (!district || place.district === district) {
+          if (place.emergency) {
+            if (place.emergency.hospitals) {
+              place.emergency.hospitals.forEach(h => items.push({ type: 'hospital', district: place.district, placeName: place.name, ...h }));
+            }
+            if (place.emergency.police) {
+              place.emergency.police.forEach(p => items.push({ type: 'police', district: place.district, placeName: place.name, ...p }));
+            }
+          }
+        }
+      });
+
+      if (items.length === 0) {
+        container.innerHTML = '<p style="color:var(--text-muted); grid-column:1/-1;">No specific emergency records listed for selected district.</p>';
+        return;
+      }
+
+      container.innerHTML = items.map(item => {
+        const isHosp = item.type === 'hospital';
+        return `
+          <div class="emergency-item" style="${!isHosp ? 'background:rgba(13,148,136,0.08); border-color:rgba(13,148,136,0.25);' : ''}">
+            <div>
+              <h4 style="color:${isHosp ? '#f87171' : '#2dd4bf'};">
+                ${isHosp ? '🏥' : '🚓'} ${item.name}
+              </h4>
+              <p style="font-size:0.85rem; color:var(--text-muted);">${item.address} (${item.district})</p>
+              <div style="font-size:0.8rem; color:var(--primary); margin-top:0.2rem;">Near ${item.placeName}</div>
+            </div>
+            <div style="display:flex; gap:0.5rem; margin-top:1rem;">
+              <a href="tel:${item.phone}" class="btn ${isHosp ? 'btn-danger' : 'btn-secondary'} btn-sm" style="flex:1;">
+                📞 Call ${item.phone}
+              </a>
+              <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(item.name + ' ' + item.address)}" target="_blank" class="btn btn-outline btn-sm">
+                📍 Map
+              </a>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+  </script>
+</body>
+</html>

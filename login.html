@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Tamil Nadu Tourism</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">🛕</div>
+        <span>Tamil Nadu <span class="text-gradient">Tourism</span></span>
+      </a>
+      <div class="nav-actions" id="nav-actions"></div>
+    </div>
+  </header>
+
+  <main class="main-content auth-page-wrap">
+    <div class="auth-card">
+      <div class="auth-header">
+        <div class="logo-icon" style="margin: 0 auto 1rem; width:50px; height:50px; font-size:1.6rem;">🛕</div>
+        <h2>Welcome Back</h2>
+        <p style="color:var(--text-muted); font-size:0.9rem;">Sign in to access your saved trip plans and wishlist</p>
+      </div>
+
+      <form id="login-form" onsubmit="handleLoginSubmit(event)">
+        <div class="form-group" style="margin-bottom:1.2rem;">
+          <label for="login-email">Email or Username</label>
+          <input type="text" id="login-email" class="form-input" placeholder="e.g. user@example.com" required>
+        </div>
+
+        <div class="form-group" style="margin-bottom:1.5rem;">
+          <div style="display:flex; justify-content:space-between; align-items:center;">
+            <label for="login-password">Password</label>
+            <a href="#" onclick="alert('Password reset link sent to your registered email.')" style="font-size:0.8rem; color:var(--primary);">Forgot Password?</a>
+          </div>
+          <input type="password" id="login-password" class="form-input" placeholder="••••••••" required>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width:100%; padding:0.85rem;">Login</button>
+      </form>
+
+      <div style="margin-top:1.5rem; text-align:center;">
+        <button onclick="fillDemoUser()" class="btn btn-secondary btn-sm" style="width:100%;">
+          ⚡ Quick Demo Auto-Login
+        </button>
+      </div>
+
+      <div class="auth-footer">
+        Don't have an account? <a href="register.html">Register Now</a>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    function handleLoginSubmit(event) {
+      event.preventDefault();
+      const email = document.getElementById('login-email').value.trim();
+      const password = document.getElementById('login-password').value.trim();
+
+      if (!email || !password) {
+        showToast('Please enter both email and password', 'danger');
+        return;
+      }
+
+      // Check registered user in localStorage or default
+      const usersStr = localStorage.getItem('tn_registered_users');
+      const users = usersStr ? JSON.parse(usersStr) : [];
+      const match = users.find(u => u.email.toLowerCase() === email.toLowerCase());
+
+      const name = match ? match.name : (email.split('@')[0]);
+
+      const userObj = { name: name, email: email };
+      localStorage.setItem('tn_user', JSON.stringify(userObj));
+
+      showToast(`Welcome back, ${name}! Redirecting...`, 'success');
+      setTimeout(() => {
+        window.location.href = 'index.html';
+      }, 1000);
+    }
+
+    function fillDemoUser() {
+      document.getElementById('login-email').value = 'karthik@tn-tourism.in';
+      document.getElementById('login-password').value = 'demo12345';
+      showToast('Demo credentials auto-filled', 'info');
+    }
+  </script>
+</body>
+</html>

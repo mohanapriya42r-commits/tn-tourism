@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tourist Place Details | Tamil Nadu Tourism</title>
+
+  <!-- Core CSS & Leaflet Maps CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin=""/>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">🛕</div>
+        <span>Tamil Nadu <span class="text-gradient">Tourism</span></span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="places.html" class="nav-link active">Tourist Places</a>
+        <a href="categories.html" class="nav-link">Categories</a>
+        <a href="trip-planner.html" class="nav-link text-gradient" style="font-weight:700;">✨ Trip Planner</a>
+        <a href="hotels.html" class="nav-link">Hotels</a>
+        <a href="restaurants.html" class="nav-link">Restaurants</a>
+        <a href="emergency.html" class="nav-link text-teal">🚨 Emergency Help</a>
+      </nav>
+
+      <div class="nav-actions" id="nav-actions"></div>
+      <button class="mobile-menu-btn">☰</button>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="container" style="padding-top:2rem; padding-bottom:5rem;">
+
+      <!-- Place Hero Banner -->
+      <div class="detail-hero">
+        <img id="place-hero-img" src="" alt="Destination Image">
+        <div class="detail-hero-overlay">
+          <div style="display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:1rem;">
+            <div>
+              <div style="display:flex; gap:0.5rem; margin-bottom:0.6rem;">
+                <span id="place-district-badge" class="badge badge-secondary"></span>
+                <span id="place-category-badge" class="badge badge-primary"></span>
+              </div>
+              <h1 id="place-title" style="font-size:2.8rem;">Loading place...</h1>
+              <div id="place-rating-text" style="font-size:1.1rem; margin-top:0.3rem;"></div>
+            </div>
+            <div>
+              <button id="place-fav-toggle-btn" class="btn btn-outline">
+                ♡ Save to Favorites
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Detail Grid Layout -->
+      <div class="detail-grid">
+        
+        <!-- Left Main Content Column -->
+        <div>
+          <!-- Overview Box -->
+          <div class="info-card-box">
+            <h3>📖 About Destination</h3>
+            <p id="place-long-desc" style="color:var(--text-muted); font-size:1.05rem; line-height:1.7; margin-bottom:1.5rem;"></p>
+            
+            <h4 style="margin-bottom:0.8rem; font-size:1.1rem; color:#ffffff;">✨ Main Attractions</h4>
+            <div id="place-attractions-list" style="display:flex; flex-wrap:wrap; gap:0.6rem; margin-bottom:1.8rem;"></div>
+
+            <h4 style="margin-bottom:0.6rem; font-size:1.1rem; color:#ffffff;">🏛️ History & Cultural Importance</h4>
+            <p id="place-history-text" style="color:var(--text-muted); font-size:0.95rem; line-height:1.6;"></p>
+          </div>
+
+          <!-- Transportation Box -->
+          <div class="info-card-box">
+            <h3>🚌 Transportation & Accessibility</h3>
+            <div class="transport-grid">
+              <div class="transport-card">
+                <div class="transport-icon">🚌</div>
+                <h4 style="font-size:1.05rem; margin-bottom:0.3rem;">Bus Availability</h4>
+                <div id="bus-info-station" style="font-size:0.85rem; font-weight:700; color:var(--primary); margin-bottom:0.3rem;"></div>
+                <div id="bus-info-detail" style="font-size:0.85rem; color:var(--text-muted);"></div>
+              </div>
+
+              <div class="transport-card">
+                <div class="transport-icon">🚆</div>
+                <h4 style="font-size:1.05rem; margin-bottom:0.3rem;">Train Availability</h4>
+                <div id="train-info-station" style="font-size:0.85rem; font-weight:700; color:var(--secondary); margin-bottom:0.3rem;"></div>
+                <div id="train-info-detail" style="font-size:0.85rem; color:var(--text-muted);"></div>
+              </div>
+
+              <div class="transport-card">
+                <div class="transport-icon">🚕</div>
+                <h4 style="font-size:1.05rem; margin-bottom:0.3rem;">Local Taxi & Autos</h4>
+                <div id="taxi-info-detail" style="font-size:0.85rem; color:var(--text-muted); margin-top:0.4rem;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Leaflet Map -->
+          <div class="info-card-box">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;">
+              <h3 style="margin-bottom:0; border-bottom:none; padding-bottom:0;">🗺️ Location & Route Map</h3>
+              <a id="get-directions-btn" href="#" target="_blank" class="btn btn-primary btn-sm">
+                Get Directions 📍
+              </a>
+            </div>
+            <div id="place-map" class="map-container"></div>
+          </div>
+
+          <!-- Emergency Services -->
+          <div class="info-card-box">
+            <h3>🚨 Nearby Emergency Services</h3>
+            <div class="emergency-card-grid" id="place-emergency-container"></div>
+          </div>
+
+          <!-- Nearby Hotels & Restaurants -->
+          <div class="info-card-box">
+            <h3>🏨 Nearby Hotels & Accommodations</h3>
+            <div style="display:flex; flex-direction:column; gap:1rem;" id="place-hotels-container"></div>
+          </div>
+
+          <div class="info-card-box">
+            <h3>🍽️ Recommended Nearby Restaurants</h3>
+            <div style="display:flex; flex-direction:column; gap:1rem;" id="place-restaurants-container"></div>
+          </div>
+
+          <!-- User Reviews & Rating Submission -->
+          <div class="info-card-box">
+            <h3>⭐ Visitor Reviews & Feedback</h3>
+            
+            <form id="add-review-form" onsubmit="handleAddReview(event)" style="background:rgba(0,0,0,0.3); padding:1.2rem; border-radius:var(--radius-md); border:1px solid var(--border-dark); margin-bottom:1.8rem;">
+              <h4 style="margin-bottom:0.8rem; font-size:1rem;">Write Your Review</h4>
+              <div style="display:grid; grid-template-columns:1fr 3fr; gap:1rem; margin-bottom:1rem;">
+                <div class="form-group">
+                  <label for="review-rating">Rating</label>
+                  <select id="review-rating" class="form-select">
+                    <option value="5">⭐⭐⭐⭐⭐ (5/5)</option>
+                    <option value="4">⭐⭐⭐⭐ (4/5)</option>
+                    <option value="3">⭐⭐⭐ (3/5)</option>
+                    <option value="2">⭐⭐ (2/5)</option>
+                    <option value="1">⭐ (1/5)</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="review-comment">Your Review / Experience</label>
+                  <input type="text" id="review-comment" class="form-input" placeholder="Share tips or your experience..." required>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary btn-sm">Submit Review</button>
+            </form>
+
+            <div id="place-reviews-list"></div>
+          </div>
+        </div>
+
+        <!-- Right Quick Info Sidebar -->
+        <div>
+          <div class="info-card-box" style="position:sticky; top:100px;">
+            <h3 style="font-size:1.2rem;">⏱️ Key Timings & Entry</h3>
+            
+            <div class="info-list-grid" style="grid-template-columns:1fr; gap:1rem;">
+              <div class="info-item">
+                <span class="label">Opening Time</span>
+                <span class="value" id="spec-open-time"></span>
+              </div>
+              <div class="info-item">
+                <span class="label">Closing Time</span>
+                <span class="value" id="spec-close-time"></span>
+              </div>
+              <div class="info-item">
+                <span class="label">Weekly Holiday</span>
+                <span class="value" id="spec-holiday"></span>
+              </div>
+              <div class="info-item">
+                <span class="label">Entry Fee</span>
+                <span class="value" id="spec-entry-fee" style="color:#fbbf24;"></span>
+              </div>
+              <div class="info-item">
+                <span class="label">Best Time to Visit</span>
+                <span class="value" id="spec-best-time" style="color:#2dd4bf;"></span>
+              </div>
+            </div>
+
+            <div style="margin-top:1.8rem; padding-top:1.2rem; border-top:1px solid var(--border-dark); text-align:center;">
+              <a href="trip-planner.html" class="btn btn-primary" style="width:100%;">
+                Plan Trip to This Destination ✨
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <div>© 2026 Tamil Nadu Tourism & Smart Trip Planner.</div>
+        <div>Verified Destination Information</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Leaflet JS & App Scripts -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/place-details-page.js"></script>
+</body>
+</html>

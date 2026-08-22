@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurants & Dining | Tamil Nadu Tourism</title>
+  <meta name="description" content="Discover authentic South Indian Chettinad cuisine, coastal seafood, and traditional vegetarian messes near tourist places in Tamil Nadu.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">🛕</div>
+        <span>Tamil Nadu <span class="text-gradient">Tourism</span></span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="places.html" class="nav-link">Tourist Places</a>
+        <a href="categories.html" class="nav-link">Categories</a>
+        <a href="trip-planner.html" class="nav-link text-gradient" style="font-weight:700;">✨ Trip Planner</a>
+        <a href="hotels.html" class="nav-link">Hotels</a>
+        <a href="restaurants.html" class="nav-link active">Restaurants</a>
+        <a href="emergency.html" class="nav-link text-teal">🚨 Emergency Help</a>
+      </nav>
+
+      <div class="nav-actions" id="nav-actions"></div>
+      <button class="mobile-menu-btn">☰</button>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <section style="padding: 3rem 0 2rem; background: linear-gradient(to bottom, rgba(217, 119, 6, 0.1), transparent);">
+      <div class="container" style="text-align:center;">
+        <div class="section-subtitle">AUTHENTIC CULINARY GUIDE</div>
+        <h1 style="font-size:2.5rem; margin-bottom:0.5rem;">Tamil Nadu Dining & Messes</h1>
+        <p style="color:var(--text-muted); max-width:600px; margin:0 auto;">
+          Experience legendary Murugan Idli, fiery Chettinad mess curries, fresh coastal seafood fry, and mountain cafe baked goods.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:1rem;">
+      <div class="container">
+        
+        <div class="glass-card" style="padding: 1.2rem; margin-bottom: 2rem;">
+          <div style="display:grid; grid-template-columns: 2fr 1fr; gap:1rem;" class="places-filter-bar">
+            <div class="form-group">
+              <label for="rest-search">Search Cuisine or Restaurant</label>
+              <input type="text" id="rest-search" class="form-input" placeholder="e.g. Chettinad, Idli, Seafood, Coffee...">
+            </div>
+            <button onclick="renderRestaurantsList()" class="btn btn-primary" style="margin-top:auto; height:46px;">
+              Search Food 🍽️
+            </button>
+          </div>
+        </div>
+
+        <div id="restaurants-grid-container" class="places-grid">
+          <!-- Rendered by script -->
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <div>© 2026 Tamil Nadu Tourism & Smart Trip Planner.</div>
+        <div>Culinary Heritage & Food Hygiene</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const searchInput = document.getElementById('rest-search');
+      if (searchInput) searchInput.addEventListener('input', renderRestaurantsList);
+      renderRestaurantsList();
+    });
+
+    function renderRestaurantsList() {
+      const container = document.getElementById('restaurants-grid-container');
+      if (!container || !window.TN_DATA) return;
+
+      const search = (document.getElementById('rest-search')?.value || '').toLowerCase();
+
+      const allRests = [];
+      window.TN_DATA.places.forEach(place => {
+        if (place.restaurants) {
+          place.restaurants.forEach(r => {
+            allRests.push({ ...r, placeName: place.name, district: place.district });
+          });
+        }
+      });
+
+      const filtered = allRests.filter(r => {
+        return r.name.toLowerCase().includes(search) || 
+               r.foodType.toLowerCase().includes(search) || 
+               r.district.toLowerCase().includes(search) || 
+               r.placeName.toLowerCase().includes(search);
+      });
+
+      if (filtered.length === 0) {
+        container.innerHTML = '<div style="grid-column:1/-1; text-align:center; padding:3rem;" class="glass-card"><p>No restaurants found matching search query.</p></div>';
+        return;
+      }
+
+      container.innerHTML = filtered.map(r => `
+        <div class="glass-card" style="padding:1.5rem; display:flex; flex-direction:column;">
+          <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.5rem;">
+            <h3 style="font-size:1.25rem;">🍽️ ${r.name}</h3>
+            <span class="badge badge-primary">★ ${r.rating}</span>
+          </div>
+          <div style="font-size:0.9rem; font-weight:600; color:#2dd4bf; margin-bottom:0.5rem;">
+            🍲 ${r.foodType}
+          </div>
+          <p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:0.8rem;">
+            📍 ${r.dist} from ${r.placeName} (${r.address})
+          </p>
+          <div style="font-size:1.1rem; font-weight:700; color:#fbbf24; margin-bottom:1.2rem;">${r.price}</div>
+          <div style="margin-top:auto;">
+            <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(r.name + ' ' + r.address)}" target="_blank" class="btn btn-outline btn-sm" style="width:100%;">
+              📍 Get Directions on Map
+            </a>
+          </div>
+        </div>
+      `).join('');
+    }
+  </script>
+</body>
+</html>
