@@ -111,7 +111,7 @@ const TN_DATA = {
   lng: 78.1380,
 
   image:
-    'https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=1000&q=80',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT28-SvOXbrVPLjUhQw_8BIX-7ZCF_CyG3lsaWxXP2g1Q&s=10',
 
   transport: {
     bus: {
@@ -246,7 +246,7 @@ const TN_DATA = {
   lng: 78.1399,
 
   image:
-    'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1000&q=80',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQDeF00PoKcIzh6qv9NGWtc-FUzxiWKr_MjlRwA73N3A&s=10',
 
   transport: {
     bus: {
@@ -382,7 +382,7 @@ const TN_DATA = {
   lng: 78.0646,
 
   image:
-    'https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1000&q=80',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe_E7kGlej9Rej9wbtmZhSPwo5z5k0PMYTjkaQdU-FlQ&s=10',
 
   transport: {
     bus: {
@@ -682,7 +682,7 @@ const TN_DATA = {
   history: 'The palace complex was developed under the Nayak rulers and later expanded and used by the Maratha rulers of Thanjavur.',
   lat: 10.7867,
   lng: 79.1378,
-  image: 'https://images.unsplash.com/photo-1600100397608-f010b6d6a0e8?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs_lYvVrDqEcsTmSQ0ST4AVVh9YsF5uxzsKjHS80yo7w&s=10',
   transport: {
     bus: {
       available: 'Local buses from Thanjavur Bus Stand',
@@ -946,7 +946,7 @@ const TN_DATA = {
   history: 'The temple has a long association with local traditions and devotion to Goddess Mariamman.',
   lat: 10.7860,
   lng: 79.1850,
-  image: 'https://images.unsplash.com/photo-1600100397608-f010b6d6a0e8?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://thanjavur.info/wp-content/uploads/2019/05/punnainallur-mariamman-temple.jpg',
   transport: {
     bus: {
       available: 'Local buses from Thanjavur',
@@ -1034,7 +1034,7 @@ const TN_DATA = {
   history: 'Developed as a public recreational space in the historic Thanjavur city area.',
   lat: 10.7785,
   lng: 79.1325,
-  image: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1599DOlOnwP0igMCxAA_hLmX8LY6fZlHfH3nyTuobjQ&s=10',
   transport: {
     bus: {
       available: 'Local buses from Thanjavur',
@@ -1122,7 +1122,7 @@ const TN_DATA = {
   history: 'Thiruvaiyaru has a long association with Carnatic music and the life and legacy of Saint Thyagaraja.',
   lat: 10.8815,
   lng: 79.1020,
-  image: 'https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFGNh8VocIngel9TAsOMJ2J6liF1_JZuLYGLjp2jmaBQ&s=10',
   transport: {
     bus: {
       available: 'Buses from Thanjavur and nearby towns',
@@ -1255,7 +1255,7 @@ const TN_DATA = {
   history: 'Established in 1848 and maintained by the Government of Tamil Nadu to promote horticulture and preserve plant species.',
   lat: 11.4146,
   lng: 76.7115,
-  image: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://www.tourdeooty.com/images/botanical-garden-ooty-19.webp',
   transport: {
     bus: {
       available: 'Local buses from Ooty town',
@@ -1343,7 +1343,7 @@ const TN_DATA = {
   history: 'Established in 1995 and developed as an important horticultural attraction in Ooty.',
   lat: 11.4025,
   lng: 76.7050,
-  image: 'https://images.unsplash.com/photo-1496062031456-07b8f162a322?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtnk10-J2u5UIv25JQ1Jtr1_XorDEdkG76chG5xoRaxw&s=10',
   transport: {
     bus: {
       available: 'Local buses and town buses',
@@ -1432,7 +1432,7 @@ const TN_DATA = {
   history: 'Pykara is associated with the natural landscape and hydroelectric development of the Nilgiri region.',
   lat: 11.4478,
   lng: 76.6250,
-  image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy1e8g0_qBGbPh1n7YzCudMZKKf4PsqchPp6bTiAI95UwMYnriKT54noet&s=10',
   transport: {
     bus: {
       available: 'Buses and tourist vehicles from Ooty',
@@ -1521,7 +1521,7 @@ const TN_DATA = {
   history: 'The Avalanche region is known for its natural forests, mountain ecosystem and important water resources of the Nilgiris.',
   lat: 11.3070,
   lng: 76.5860,
-  image: 'https://images.unsplash.com/photo-1439853949127-fa647821eba0?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/dd/4d/c6/glacier-national-park.jpg?w=1200&h=1200&s=1',
   transport: {
     bus: {
       available: 'Eco-tourism vehicles and local transport from Ooty',
@@ -1610,7 +1610,7 @@ const TN_DATA = {
   history: 'The Emerald region forms part of the important high-altitude water and forest ecosystem of the Nilgiris.',
   lat: 11.3265,
   lng: 76.6100,
-  image: 'https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/e1/7e/73/img-20151223-104621-largejpg.jpg?w=1200&h=-1&s=1',
   transport: {
     bus: {
       available: 'Local buses and tourist vehicles from Ooty',
@@ -1691,7 +1691,7 @@ const TN_DATA = {
       history: 'Promenaded and built by Governor Mountstuart Elphinstone Grant Duff in the 1880s.',
       lat: 13.0499,
       lng: 80.2824,
-      image: 'https://images.unsplash.com/photo-1596402184320-417e7178b2cd?auto=format&fit=crop&w=1000&q=80',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUAjmkXhD2dRlCD_dtwLsqdzvhQc193qnlrF9XXt2KzbbGXDHONcq2hpo&s=10',
       transport: {
         bus: { available: 'MTC Buses connecting across Chennai', station: 'Marina Beach Bus Stop', distance: '0.1 km' },
         train: { station: 'Chepauk / Light House MRTS Station', distance: '0.4 km', frequency: 'MRTS trains every 15 mins' },
@@ -1783,7 +1783,7 @@ const TN_DATA = {
   history: 'Developed as an important boating and recreation destination along the East Coast Road.',
   lat: 12.8282,
   lng: 80.2500,
-  image: 'https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfRu9AZZH5Zl-tJjHz3rZhceGUVjWqz6Y8WegVdOV3Ig&s=10',
   transport: {
     bus: {
       available: 'ECR buses from Chennai and nearby towns',
@@ -1871,7 +1871,7 @@ const TN_DATA = {
   history: 'A traditional coastal fishing settlement that has developed into a popular ECR tourist destination.',
   lat: 12.7956,
   lng: 80.2500,
-  image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR-PwHJBRaqamosXcIM0ALNFUch5zhBcAsNmcCCd0XXg&s=10',
   transport: {
     bus: {
       available: 'Regular ECR buses from Chennai',
@@ -1960,7 +1960,7 @@ const TN_DATA = {
   history: 'The zoo was originally established in Madras in 1855 and was later relocated to its present Vandalur location.',
   lat: 12.8797,
   lng: 80.0810,
-  image: 'https://images.unsplash.com/photo-1549366021-9f761d450615?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://images.staybook.in/arignar-anna-zoological-park/0.jpg',
   transport: {
     bus: {
       available: 'MTC buses from Chennai and Tambaram',
@@ -2048,7 +2048,7 @@ const TN_DATA = {
   history: 'An ancient Shaivite temple associated with the religious traditions and legends of Thirukalukundram.',
   lat: 12.6083,
   lng: 80.0667,
-  image: 'https://images.unsplash.com/photo-1600100397608-f010b6d6a0e8?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://upload.wikimedia.org/wikipedia/commons/3/33/Vedhagireeswarar_temple_with_the_tank.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original',
   transport: {
     bus: {
       available: 'Regular buses from Chengalpattu and Mahabalipuram',
@@ -2136,7 +2136,7 @@ const TN_DATA = {
   history: 'A historic irrigation reservoir that has played an important role in the agricultural development of the region.',
   lat: 12.5106,
   lng: 79.8844,
-  image: 'https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1w0YXZBd57efwf6BwRwcnZHO7VAwlii2NKq72WyEBWg&s=10',
   transport: {
     bus: {
       available: 'Buses from Chengalpattu and Chennai',
@@ -2224,7 +2224,7 @@ const TN_DATA = {
   history: 'Kelambakkam developed as an important junction connecting Chennai with the ECR coastal tourism belt.',
   lat: 12.7955,
   lng: 80.2280,
-  image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0KjHq8CgRJv_QGsANhIVqCVwRNY05YDdp0KxIU31YCA&s=10',
   transport: {
     bus: {
       available: 'MTC and private buses from Chennai',
@@ -2372,7 +2372,7 @@ const TN_DATA = {
   history: 'Established by the English East India Company in 1640 and became an important center of British administration in South India.',
   lat: 13.0795,
   lng: 80.2870,
-  image: 'https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBKO8R4RWGinADvJqx7gdM2UzsLZBjgyXTI03iEQbM2Q&s=10',
   transport: {
     bus: {
       available: 'MTC buses from across Chennai',
@@ -2432,7 +2432,7 @@ const TN_DATA = {
   history: 'The basilica is traditionally associated with Saint Thomas the Apostle and has been rebuilt in different architectural forms over the centuries.',
   lat: 13.0339,
   lng: 80.2770,
-  image: 'https://images.unsplash.com/photo-1548625149-fc4a29cf7092?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGsmNtjc7bEflo4LlR3KzUlow6Hjz4xwzp4OiWaMnrnDiuivH8Vpzn78w&s=10',
   transport: {
     bus: {
       available: 'MTC buses from major Chennai areas',
@@ -2492,7 +2492,7 @@ const TN_DATA = {
   history: 'Constructed in the 1970s as a memorial to Thiruvalluvar and his contribution to Tamil literature.',
   lat: 13.0524,
   lng: 80.2425,
-  image: 'https://images.unsplash.com/photo-1600100397608-f010b6d6a0e8?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRShID90A6D3macSNvW7CG3oJNfTWqeNCaWtxwwT5ANxw&s=10',
   transport: {
     bus: {
       available: 'MTC buses from all major Chennai areas',
@@ -2552,7 +2552,7 @@ const TN_DATA = {
   history: 'The protected area evolved from the Guindy forest reserve and became a national park in 1978.',
   lat: 13.0068,
   lng: 80.2206,
-  image: 'https://images.unsplash.com/photo-1549366021-9f761d450615?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBRJ5qpPyL9Y4_eNDQVu1A0TJiFkQRYkhexLZmcYlejg&s',
   transport: {
     bus: {
       available: 'MTC buses from major parts of Chennai',
@@ -2612,7 +2612,7 @@ const TN_DATA = {
   history: 'Established in 1988 as part of the science and technology education initiatives in Chennai.',
   lat: 13.0067,
   lng: 80.2497,
-  image: 'https://images.unsplash.com/photo-1446776877081-d282a0f896e2?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF3EivmonipyrtZTbAV3fHpXUDgwV97XqgYCqxvfQSZw&s=10',
   transport: {
     bus: {
       available: 'MTC buses from across Chennai',
@@ -2672,7 +2672,7 @@ const TN_DATA = {
   history: 'Named after Annie Besant and developed as an important recreational coastal area of Chennai.',
   lat: 13.0005,
   lng: 80.2667,
-  image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLIY3jFAizeVqdZWOpJjgMdirn0i2wu_b_Hf-RemcEKQ&s=10',
   transport: {
     bus: {
       available: 'MTC buses from central and south Chennai',
@@ -2733,7 +2733,7 @@ const TN_DATA = {
   history: 'Established in 1851 and expanded over time into one of the most important museum complexes in India.',
   lat: 13.0694,
   lng: 80.2548,
-  image: 'https://images.unsplash.com/photo-1564399579883-451a5d44ec08?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy7Mx11gODxdpv7hSpnO4CtWe0cx-hHG91oVzUA1Taag&s',
   transport: {
     bus: {
       available: 'MTC buses from all major Chennai areas',
@@ -2793,7 +2793,7 @@ const TN_DATA = {
   history: 'The memorials were established to honor two major political leaders and former Chief Ministers of Tamil Nadu.',
   lat: 13.0648,
   lng: 80.2807,
-  image: 'https://images.unsplash.com/photo-1596402184320-417e7178b2cd?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV3q1D-QLUPIazKzLysUrPzqbF_kqoghjkMt3NwIblkw&s=10',
   transport: {
     bus: {
       available: 'MTC buses from all major Chennai areas',
@@ -2846,7 +2846,7 @@ const TN_DATA = {
       history: 'Established in 1845 as a refuge from summer heat by American missionaries and British bureaucrats.',
       lat: 10.2381,
       lng: 77.4892,
-      image: 'https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1000&q=80',
+      image: 'https://www.indyatour.com/images/india/tamil-nadu/kodaikanal-hill-station-tamilnadu.jpg',
       transport: {
         bus: { available: 'Buses from Madurai, Dindigul, Coimbatore, Chennai', station: 'Kodaikanal Central Bus Stand', distance: '0.8 km' },
         train: { station: 'Kodai Road Railway Station (KQN)', distance: '80 km', frequency: 'Taxis & express buses connect uphill' },
@@ -2889,7 +2889,7 @@ const TN_DATA = {
       history: 'Mentioned in ancient Tamil Sangam literature as a sacred herbal bathing destination.',
       lat: 8.9304,
       lng: 77.2689,
-      image: 'https://images.unsplash.com/photo-1546182990-dffeafbe841d?auto=format&fit=crop&w=1000&q=80',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWfdhWA6f_i6qgjZE3PIjO663kIe_eoOmTLh9EIbF0KY0DGxN2oTIFhVzp&s=10',
       transport: {
         bus: { available: 'Buses from Tenkasi (6km) & Tirunelveli', station: 'Courtallam Bus Stand', distance: '0.5 km' },
         train: { station: 'Tenkasi Junction (TSI)', distance: '6.0 km', frequency: 'Express trains from Chennai & Madurai' },
@@ -2938,7 +2938,7 @@ const TN_DATA = {
   history: 'The fort was originally associated with the Madurai Nayak rulers and was later controlled by several South Indian and Mysore rulers.',
   lat: 10.3624,
   lng: 77.9695,
-  image: 'https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUytDj9yM0mPngIce2M-BTIQBikhcgcaMNfw_lAWSchw&s',
   transport: {
     bus: {
       available: 'TNSTC buses from Madurai, Trichy, Coimbatore and nearby towns',
@@ -3027,7 +3027,7 @@ const TN_DATA = {
   history: 'Sirumalai has traditionally been known for its forest landscape, agricultural plantations and distinctive hill ecosystem.',
   lat: 10.2350,
   lng: 77.9400,
-  image: 'https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR18kLflL3RQQjYF78fFF1z6Uf312Vrc3EiRvarDePGPQ&s=10',
   transport: {
     bus: {
       available: 'Local buses from Dindigul and nearby villages',
@@ -3115,7 +3115,7 @@ const TN_DATA = {
   history: 'The lake forms part of the water resources and natural landscape of the Sirumalai hill region.',
   lat: 10.2355,
   lng: 77.9420,
-  image: 'https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://cdn.tripuntold.com/media/photos/location/2018/10/22/93f26b24-ce13-45b8-a5b4-b5d1ce3bbfdf.jpg',
   transport: {
     bus: {
       available: 'Local buses and tourist vehicles from Dindigul',
@@ -3203,7 +3203,7 @@ const TN_DATA = {
   history: 'The dam was constructed as an important water resource and irrigation project in the region.',
   lat: 10.4070,
   lng: 77.2450,
-  image: 'https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ99MinqaCN0VeO1D0OlJCUTVu2UFehEqkb0DEAQN7y1g&s=10',
   transport: {
     bus: {
       available: 'Buses from Dindigul, Palani and nearby towns',
@@ -3291,7 +3291,7 @@ const TN_DATA = {
   history: 'The Palani Hills form part of the Western Ghats and have played an important role in the natural and cultural landscape of the region.',
   lat: 10.4500,
   lng: 77.5200,
-  image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrG5KsGEK5-R8PQFG05oXYSNv_xoJ7dceDleSNDiw8vg&s=10',
   transport: {
     bus: {
       available: 'TNSTC buses from Dindigul, Madurai and nearby towns',
@@ -3372,7 +3372,7 @@ const TN_DATA = {
       history: 'One of the oldest natural water formations along the Kaveri basin.',
       lat: 12.1182,
       lng: 77.7774,
-      image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1000&q=80',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_SZf3dOCH_KGmksc1N_7qFh9c93G8ElrrvvkvrdT3c3FTWegUMf5dalQ&s=10',
       transport: {
         bus: { available: 'Buses from Dharmapuri (46 km) and Salem', station: 'Hogenakkal Main Bus Stand', distance: '0.4 km' },
         train: { station: 'Dharmapuri Railway Station (DPI)', distance: '46 km', frequency: 'Direct buses available from station' },
@@ -3415,7 +3415,7 @@ const TN_DATA = {
       history: 'Declared a wildlife sanctuary in 1940 and designated a Tiger Reserve in 2007.',
       lat: 11.5623,
       lng: 76.5342,
-      image: 'https://images.unsplash.com/photo-1575550959106-5a7defe28b56?auto=format&fit=crop&w=1000&q=80',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR42Yeen5avyTFUT397vo6ePa4d6YQioh8WXtWoArjKxTyUsZu2c6tzvXg&s=10',
       transport: {
         bus: { available: 'Buses along Ooty-Mysore Highway (NH 766)', station: 'Theppakadu Junction', distance: '0.2 km' },
         train: { station: 'Mysore Junction (65 km) / Mettupalayam (85 km)', distance: '65 km', frequency: 'Highway buses stop right at Theppakadu' },
@@ -3458,7 +3458,7 @@ const TN_DATA = {
       history: 'Originally built by the Konar dynasty in the 12th century, fortified by Nayaks, Marathas (Chhatrapati Shivaji), Bijapur Sultans, and Mughals.',
       lat: 12.2514,
       lng: 79.4181,
-      image: 'https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?auto=format&fit=crop&w=1000&q=80',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6N2o1WeDgawR13uEV1OEIbYeKDrKh2OzlAABy1SWGX9LU3SxQhey84nw&s=10',
       transport: {
         bus: { available: 'Buses from Tindivanam (25 km), Villupuram (40 km), & Puducherry', station: 'Gingee Bus Stand', distance: '2.0 km' },
         train: { station: 'Tindivanam Railway Station (TMV)', distance: '25 km', frequency: 'Direct local buses from Tindivanam station' },
@@ -3544,7 +3544,7 @@ const TN_DATA = {
       history: 'Swami Vivekananda meditated on the rock offshore in December 1892 before attending the Chicago Parliament of Religions.',
       lat: 8.0883,
       lng: 77.5385,
-      image: 'https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?auto=format&fit=crop&w=1000&q=80',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw07OlIPw4gFXq9pkqJ7DpNlqYpTtV2KvwFOpuW8iZMGF7WbQUhNs9yPI&s=10',
       transport: {
         bus: { available: 'State express buses from Trivandrum, Madurai, Chennai', station: 'Kanyakumari Bus Stand', distance: '1.0 km' },
         train: { station: 'Kanyakumari Railway Station (CAPE)', distance: '1.2 km', frequency: 'Terminal station connected to major Indian hubs' },
@@ -3593,7 +3593,7 @@ const TN_DATA = {
   history: 'Built in memory of Dr. APJ Abdul Kalam, who was born in Rameswaram and served as the 11th President of India.',
   lat: 9.2937,
   lng: 79.3190,
-  image: 'https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://www.rameswaramtravels.com/img/placevisit/large/abdulkalam.jpg',
   transport: {
     bus: {
       available: 'Local and express buses from Rameswaram',
@@ -3681,7 +3681,7 @@ const TN_DATA = {
   history: 'The original railway bridge was opened in 1914 and became an important transport link between mainland India and Rameswaram Island.',
   lat: 9.2750,
   lng: 79.2150,
-  image: 'https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://staticimg.amarujala.com/assets/images/2025/04/05/new-pamban-bridge_777f5562d3ff5b5a1669fc6b1de2642c.jpeg?w=414&dpr=3.0&q=80',
   transport: {
     bus: {
       available: 'Buses connecting Rameswaram and Ramanathapuram',
@@ -3769,7 +3769,7 @@ const TN_DATA = {
   history: 'The shrine is traditionally associated with Sultan Syed Ibrahim Shaheed and has developed into an important pilgrimage centre in southern Tamil Nadu.',
   lat: 9.1980,
   lng: 78.9900,
-  image: 'https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeYGaTYHku5R5Rd8Y5vf31t1SxLJuea1ZrUGHpBwjA-g&s=10',
   transport: {
     bus: {
       available: 'Buses from Ramanathapuram and nearby towns',
@@ -3857,7 +3857,7 @@ const TN_DATA = {
   history: 'Ariyaman is part of the coastal landscape of Ramanathapuram district and has developed as a recreational beach destination.',
   lat: 9.3500,
   lng: 78.9800,
-  image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiECwFD0KIAhrQt9S-APRinx87BDONkepZ57etn3gChQ&s=10',
   transport: {
     bus: {
       available: 'Local buses from Rameswaram and Ramanathapuram',
@@ -3945,7 +3945,7 @@ const TN_DATA = {
   history: 'Kilakarai developed as an important maritime trading centre and has centuries-old connections with overseas trade across the Indian Ocean.',
   lat: 9.2300,
   lng: 78.7850,
-  image: 'https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdkfbjGJH5A7BcFvb00IR32WBQJdU3GJEe-oTmHGV8fw&s=10',
   transport: {
     bus: {
       available: 'Buses from Ramanathapuram and Rameswaram',
@@ -4034,7 +4034,7 @@ const TN_DATA = {
   history: 'The Gulf of Mannar was established as a protected marine biosphere region because of its exceptional marine biodiversity and ecological importance.',
   lat: 9.1500,
   lng: 78.6000,
-  image: 'https://images.unsplash.com/photo-1544551763-77ef2d0cfc6c?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://i.ytimg.com/vi/8po4Z6n6BJU/maxresdefault.jpg',
   transport: {
     bus: {
       available: 'Buses from Ramanathapuram and coastal towns',
@@ -4122,7 +4122,7 @@ const TN_DATA = {
   history: 'The palace served as the capital and royal residence of the Travancore kingdom before the capital was shifted to Thiruvananthapuram.',
   lat: 8.2447,
   lng: 77.3250,
-  image: 'https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://kanyakumaritourism.in/images/places-to-visit/headers/padmanabhapuram-palace-kanyakumari-tourism-entry-fee-timings-holidays-reviews-header.jpg',
   transport: {
     bus: {
       available: 'Regular buses from Nagercoil, Kanyakumari and Thiruvananthapuram',
@@ -4210,7 +4210,7 @@ const TN_DATA = {
   history: 'The statue was inaugurated in 2000 as a monumental tribute to Thiruvalluvar and his contribution to Tamil literature.',
   lat: 8.0777,
   lng: 77.5560,
-  image: 'https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgeca_16-cGWblUuABhba1VdsTsghN7lIQkjmDhf66nA&s=10',
   transport: {
     bus: {
       available: 'Local buses from Nagercoil and Kanyakumari',
@@ -4298,7 +4298,7 @@ const TN_DATA = {
   history: 'An ancient temple with strong Shaivite and Vaishnavite traditions and a long association with the cultural history of southern Tamil Nadu.',
   lat: 8.1540,
   lng: 77.4670,
-  image: 'https://images.unsplash.com/photo-1600100397608-f010b6d6a0e8?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://upload.wikimedia.org/wikipedia/commons/8/82/SUCHINDAM_%283%29.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original',
   transport: {
     bus: {
       available: 'Frequent buses from Nagercoil and Kanyakumari',
@@ -4386,7 +4386,7 @@ const TN_DATA = {
   history: 'The waterfall and surrounding river landscape have long been an important natural attraction in the western part of Kanyakumari district.',
   lat: 8.3890,
   lng: 77.2570,
-  image: 'https://images.unsplash.com/photo-1546182990-dffeafbe841d?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5VZJ5-u3vflc4dUkhT3L9uEMRGob6WvC6iM48kdJJjJs4CaqZnhqD2xI&s=10',
   transport: {
     bus: {
       available: 'Buses from Nagercoil, Kulasekaram and nearby towns',
@@ -4474,7 +4474,7 @@ const TN_DATA = {
   history: 'Built as an important irrigation structure to carry water across the valley and support agriculture in the region.',
   lat: 8.3390,
   lng: 77.2830,
-  image: 'https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCAwSDwgZiSlanDlUgIEswahXw7xthzQ0TxLu423JYpw&s=10',
   transport: {
     bus: {
       available: 'Local buses from Nagercoil and nearby towns',
@@ -4562,7 +4562,7 @@ const TN_DATA = {
   history: 'A natural waterfall associated with the forest and hill ecosystem of the Western Ghats in Kanyakumari district.',
   lat: 8.3700,
   lng: 77.3700,
-  image: 'https://images.unsplash.com/photo-1546182990-dffeafbe841d?auto=format&fit=crop&w=1000&q=80',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdjPju_sg9XXvBasTgY95RDGFLG91Nl1Q6pmYm1xv4Ww&s=10',
   transport: {
     bus: {
       available: 'Local buses to nearby villages',
@@ -4643,7 +4643,7 @@ const TN_DATA = {
       history: 'Discovered as a hill resort by Sir Thomas Munro in 1842.',
       lat: 11.7753,
       lng: 78.2093,
-      image: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1000&q=80',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKjalJho9o0dVcSfDiNbuSMvfw6RbWDLQJGjXlt8XsKw&s=10',
       transport: {
         bus: { available: 'Frequent buses from Salem Junction & Bus Stand (30 km ghat road)', station: 'Yercaud Bus Stand', distance: '0.5 km' },
         train: { station: 'Salem Junction (SA)', distance: '32 km', frequency: 'Superfast express trains from Chennai & Bangalore' },
@@ -4707,7 +4707,7 @@ const TN_DATA = {
   lng: 79.44872,
 
   image:
-    'https://images.unsplash.com/photo-1600100397608-f090742f4fa4?auto=format&fit=crop&w=1000&q=80',
+    'https://upload.wikimedia.org/wikipedia/commons/4/48/GangaiKonda_Cholapuram%28Front_View%29.JPG?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original',
 
   transport: {
     bus: {
@@ -4818,7 +4818,7 @@ const TN_DATA = {
   lng: 79.7850,
 
   image:
-    'https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1000&q=80',
+    'https://im.whatshot.in/img/2019/Sep/is-1568204483.jpg?wp=1',
 
   transport: {
     bus: {
@@ -4930,7 +4930,7 @@ const TN_DATA = {
   lng: 77.1130,
 
   image:
-    'https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1000&q=80',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI9nVgaRHzBQqQkXImax4bsAiOLFQKcT-WZqeM_EwlIw&s=10',
 
   transport: {
     bus: {
@@ -5043,7 +5043,7 @@ const TN_DATA = {
   lng: 78.6500,
 
   image:
-    'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=80',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfUWAFtOatxpE3Z0-IxnQu8zxRvvVHB-5ncIpOOeLzCQGnJpZL97lQmHo&s=10',
 
   transport: {
     bus: {
@@ -5154,7 +5154,7 @@ const TN_DATA = {
   lng: 78.0766,
 
   image:
-    'https://images.unsplash.com/photo-1600100397608-f090742f4fa4?auto=format&fit=crop&w=1000&q=80',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGZK5Gonkb9oryzrNXL5Z8Z5ltEA4pDRvBEep0xvDE1ibAz20Zcbxi3_of&s=10',
 
   transport: {
     bus: {
@@ -5266,7 +5266,7 @@ const TN_DATA = {
   lng: 78.2137,
 
   image:
-    'https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1000&q=80',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_prRm160UE3vlVdBo3hphBzQmRJFIZUSLBdQ9JbROQg&s=10',
 
   transport: {
     bus: {
@@ -5378,7 +5378,7 @@ const TN_DATA = {
   lng: 79.8510,
 
   image:
-    'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRKP4g0A44Vl0hM7-S92WJFyVHoOMfoR7vrf6W0efpLw&s=10',
 
   transport: {
     bus: {
@@ -5490,7 +5490,7 @@ const TN_DATA = {
   lng: 79.8450,
 
   image:
-    'https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1000&q=80',
+    'https://vailankanni.info/wp-content/uploads/2022/12/1-2.jpg',
 
   transport: {
     bus: {
@@ -5602,7 +5602,7 @@ const TN_DATA = {
   lng: 78.9000,
 
   image:
-    'https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1000&q=80',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNgAaSlmxaG-JdyiOW2yXjHakAS_EhLTC0eNzS0sKC7Q&s=10',
 
   transport: {
     bus: {
@@ -5717,7 +5717,7 @@ const TN_DATA = {
   lng: 78.8200,
 
   image:
-    'https://images.unsplash.com/photo-1564399579883-451a5d44ec08?auto=format&fit=crop&w=1000&q=80',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE9tHO3c--_JrFm_CJkyLdC4mG0Zb4soPBs-z1jo4YKQ&s=10',
 
   transport: {
     bus: {
@@ -5830,7 +5830,7 @@ const TN_DATA = {
   lng: 79.3200,
 
   image:
-    'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=80',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBVmtROxAVS1-CdZjerb1lTuI9SBAUHIRB3dmpKZP-1g&s=10',
 
   transport: {
     bus: {
@@ -5945,7 +5945,7 @@ const TN_DATA = {
   lng: 78.5750,
 
   image:
-    'https://images.unsplash.com/photo-1444464666168-49d633b86797?auto=format&fit=crop&w=1000&q=80',
+    'https://tamilnadutourisminfo.com/wp-content/uploads/2023/10/vettangudi.webp',
 
   transport: {
     bus: {
@@ -6057,7 +6057,7 @@ const TN_DATA = {
   lng: 77.2750,
 
   image:
-    'https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1000&q=80',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlYjxn1BE9gVtIv1GwnWF6UM-booy85snx6o4Cq05Low&s=10',
 
   transport: {
     bus: {
@@ -6169,7 +6169,7 @@ const TN_DATA = {
   lng: 78.0520,
 
   image:
-    'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCh8NoQ8_6xrwxwdQTJLuJ8gM4fnLjH4IuT02c3y9XFA&s=10',
 
   transport: {
     bus: {
@@ -6391,7 +6391,7 @@ const TN_DATA = {
   lng: 78.1200,
 
   image:
-    'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqc6htP4yiigb_Ws91Rn9u_kAAWesttxGyXYuXU1LFkbH8W20hY-TvIw0p&s=10',
 
   transport: {
     bus: {
@@ -6502,7 +6502,7 @@ const TN_DATA = {
   lng: 77.7050,
 
   image:
-    'https://images.unsplash.com/photo-1609946782701-7b003a890d23?auto=format&fit=crop&w=1000&q=80',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9e4z4ri3-L_F9eLRRyiPnBdzWt7EMSXfjYNr5BrOCTA&s=10',
 
   transport: {
     bus: {
@@ -6614,7 +6614,7 @@ const TN_DATA = {
   lng: 78.1500,
 
   image:
-    'https://images.unsplash.com/photo-1544551763-77ef2d0cfc6c?auto=format&fit=crop&w=1000&q=80',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxcOP_FU_4WnWezQ_WV_Q3ShBXU3Os735KxyYymyhYtg&s=100',
 
   transport: {
     bus: {
@@ -6725,7 +6725,7 @@ const TN_DATA = {
   lng: 78.1450,
 
   image:
-    'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbaqYVxV__7qgV45VNgL7Z83YsOeWbNrRxIRt0A8LPfQ&s=10',
 
   transport: {
     bus: {
@@ -6836,7 +6836,7 @@ const TN_DATA = {
   lng: 78.0200,
 
   image:
-    'https://images.unsplash.com/photo-1609946782701-7b003a890d23?auto=format&fit=crop&w=1000&q=80',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8LYEgM3un4bzAqlJe1_5wFF1aSP-MmrG2l6xrF8oEgQ&s=10',
 
   transport: {
     bus: {
@@ -6948,7 +6948,7 @@ const TN_DATA = {
   lng: 78.7100,
 
   image:
-    'https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1000&q=80',
+    'https://touristplacestamilnadu.com/images/history/mukkombu-upper-anaicut.webp',
 
   transport: {
     bus: {
@@ -7171,7 +7171,7 @@ const TN_DATA = {
   lng: 78.6957,
 
   image:
-    'https://images.unsplash.com/photo-1600100397608-f010b6d6a0e8?auto=format&fit=crop&w=1000&q=80',
+    'https://miro.medium.com/v2/resize:fit:1400/1*K8-_TBOcrIgNfpFZk9SPdQ.jpeg',
 
   transport: {
     bus: {
@@ -7281,7 +7281,7 @@ const TN_DATA = {
   lng: 78.7510,
 
   image:
-    'https://images.unsplash.com/photo-1600100397608-f010b6d6a0e8?auto=format&fit=crop&w=1000&q=80',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUWcgAZGL9cTFvmoQrVaTHk1N05lMlRAIkbqh848sG1zrPD9jtiyXIeUw&s=10',
 
   transport: {
     bus: {
@@ -7392,7 +7392,7 @@ const TN_DATA = {
   lng: 78.8550,
 
   image:
-    'https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1000&q=80',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4-HMmNdnri_R8ZVlUrucVtKMyNTQ_1yP0cThTKtIF0w&s=10',
 
   transport: {
     bus: {
@@ -7502,7 +7502,7 @@ const TN_DATA = {
   lng: 78.6370,
 
   image:
-    'https://images.unsplash.com/photo-1600100397608-f010b6d6a0e8?auto=format&fit=crop&w=1000&q=80',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSy5oJhBvosSzgsHFPGPBQsRl5_4gqKBIvKjJFuXwaGQ&s=10',
 
   transport: {
     bus: {
@@ -7613,7 +7613,7 @@ const TN_DATA = {
   lng: 78.4200,
 
   image:
-    'https://images.unsplash.com/photo-1546182990-dffeafbe841d?auto=format&fit=crop&w=1000&q=80',
+    'https://ramyashotels.com/wp-content/uploads/2021/06/puliyancholai-falls-trichy-best-view.jpg',
 
   transport: {
     bus: {
@@ -7726,7 +7726,7 @@ const TN_DATA = {
   lng: 78.6300,
 
   image:
-    'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=80',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKl7eGc0E999i9RlbE78U8ADjtzFxHiuppG9Djk17WWQ&s=10',
 
   transport: {
     bus: {
@@ -7837,7 +7837,7 @@ const TN_DATA = {
   lng: 77.2700,
 
   image:
-    'https://images.unsplash.com/photo-1535338454770-8be927b5a00b?auto=format&fit=crop&w=1000&q=80',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc7F69MXuHinOCZyGakoUsF8yXTflLx0ym8cZQaetNoQ&s=10',
 
   transport: {
     bus: {
@@ -7950,7 +7950,7 @@ const TN_DATA = {
   lng: 80.3160,
 
   image:
-    'https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1000&q=80',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQtob61ccW6F-vxcgaohMMLVHpDcNfDCJyW9or6P3eGw&s=10',
 
   transport: {
     bus: {
@@ -8060,7 +8060,7 @@ const TN_DATA = {
   lng: 79.9060,
 
   image:
-    'https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1000&q=80',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdE8KOPow2bBOq836b17bUwMQThWHUxzYvAvQim5Lfdg&s=10',
 
   transport: {
     bus: {
@@ -8171,7 +8171,7 @@ const TN_DATA = {
   lng: 79.9070,
 
   image:
-    'https://images.unsplash.com/photo-1600100397608-f010b6d6a0e8?auto=format&fit=crop&w=1000&q=80',
+    'https://data.trusteddonations.com/files/unnamed53b1c2.jpg',
 
   transport: {
     bus: {
@@ -8504,7 +8504,7 @@ const TN_DATA = {
   lng: 79.2500,
 
   image:
-    'https://images.unsplash.com/photo-1549366021-9f761d450615?auto=format&fit=crop&w=1000&q=80',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTePoEWQfQLl9ZqljHWVYQP33BaiwiJxI3Ux8QTozUraA&s=10',
 
   transport: {
     bus: {
@@ -8616,7 +8616,7 @@ const TN_DATA = {
   lng: 78.8900,
 
   image:
-    'https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1000&q=80',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTym0If6bmbCdy3y8cQ0XM0ta7RlnPDWA73HJm9f2WZJw&s=10',
 
   transport: {
     bus: {
@@ -8729,7 +8729,7 @@ const TN_DATA = {
   lng: 79.5200,
 
   image:
-    'https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1000&q=80',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDmXfQ32hK_c3Uh5iWybeTMd9jNwOmE8UpAy3FS-uvfA&s=10',
 
   transport: {
     bus: {
@@ -8843,7 +8843,7 @@ const TN_DATA = {
   lng: 79.1320,
 
   image:
-    'https://images.unsplash.com/photo-1600100397608-f090742f4fa4?auto=format&fit=crop&w=1000&q=80',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVdbmz48m4VADbI4rr3-s6ngeceNsWYts8JpbxLDkjaA&s=10',
 
   transport: {
     bus: {
@@ -8955,7 +8955,7 @@ const TN_DATA = {
   lng: 77.9550,
 
   image:
-    'https://images.unsplash.com/photo-1564399579883-451a5d44ec08?auto=format&fit=crop&w=1000&q=80',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCOGHxQh7wHWts6uTdlQHii1pFebzxIXlRhar6t3Q5BV05L27u_i_HDpA&s=10',
 
   transport: {
     bus: {
