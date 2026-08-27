@@ -2914,6 +2914,530 @@ const TN_DATA = {
       ]
     },
     {
+  id: 'tn_papanasam',
+  name: 'Papanasam',
+  district: 'Tenkasi',
+  category: 'waterfalls',
+  categoryName: 'Waterfalls & Nature',
+  rating: 4.7,
+  ratingCount: 7200,
+  entryFee: 'Free',
+  openTime: '06:00 AM',
+  closeTime: '06:00 PM',
+  holiday: 'None',
+  bestTime: 'June to January',
+  shortDesc: 'A scenic Western Ghats destination known for Papanasam Falls, lush forests and the Tamiraparani River.',
+  longDesc: 'Papanasam is a beautiful nature destination situated at the foothills of the Western Ghats. The area is famous for Papanasam Falls, the Tamiraparani River and the surrounding forests. It is also an important pilgrimage destination associated with the Papanasanathar Temple.',
+  attractions: [
+    'Papanasam Falls',
+    'Tamiraparani River',
+    'Papanasanathar Temple',
+    'Agasthiyar Falls',
+    'Western Ghats'
+  ],
+  history: 'Papanasam has long been associated with Hindu traditions and is believed to be connected with Sage Agasthya. The Papanasanathar Temple is an important ancient Shaivite temple in the region.',
+  lat: 8.7047,
+  lng: 77.3486,
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRz5qW1-qo6mfcg3-MknOTN8BV-J7DxZUj0-g9zYaeqQ&s=10',
+  transport: {
+    bus: {
+      available: 'Regular buses from Tenkasi, Ambasamudram and Tirunelveli',
+      station: 'Papanasam Bus Stand',
+      distance: '1.0 km'
+    },
+    train: {
+      station: 'Ambasamudram Railway Station',
+      distance: '15 km',
+      frequency: 'Regular passenger and express services from major cities'
+    },
+    taxi: {
+      options: 'Auto Rickshaws and Private Taxis'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'Government Hospital Papanasam',
+        distance: '2.0 km',
+        phone: '04634-230222',
+        address: 'Papanasam, Tenkasi District'
+      }
+    ],
+    police: [
+      {
+        name: 'Papanasam Police Station',
+        distance: '1.0 km',
+        phone: '04634-230100',
+        address: 'Papanasam'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Local Pharmacy',
+        distance: '1.0 km',
+        location: 'Papanasam Main Road'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: 'Papanasam Guest House',
+      price: '₹1,500/night',
+      rating: 4.0,
+      dist: '2 km',
+      image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80',
+      phone: '+91 4634 230222'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Local South Indian Restaurant',
+      foodType: 'South Indian Vegetarian',
+      price: '₹250 for two',
+      rating: 4.2,
+      dist: '1.5 km',
+      address: 'Papanasam Main Road'
+    }
+  ]
+},
+
+{
+  id: 'tn_manjolai',
+  name: 'Manjolai Hills',
+  district: 'Tenkasi',
+  category: 'hills',
+  categoryName: 'Hill Stations & Nature',
+  rating: 4.8,
+  ratingCount: 6100,
+  entryFee: 'Forest Entry / Permit Applicable',
+  openTime: '06:00 AM',
+  closeTime: '05:30 PM',
+  holiday: 'Subject to Forest Department Restrictions',
+  bestTime: 'October to March',
+  shortDesc: 'A peaceful hill destination surrounded by tea estates, dense forests and spectacular Western Ghats scenery.',
+  longDesc: 'Manjolai Hills is a beautiful high-altitude region of the Western Ghats known for its tea plantations, mist-covered mountains and dense forests. The area offers scenic viewpoints and a peaceful escape from the busy towns.',
+  attractions: [
+    'Manjolai Tea Estates',
+    'Kakkachi',
+    'Kothaiyar',
+    'View Points',
+    'Western Ghats Forests'
+  ],
+  history: 'Manjolai developed as a plantation region in the Western Ghats and is known for its tea estates and biodiversity. The region forms part of the Kalakkad-Mundanthurai landscape.',
+  lat: 8.6524,
+  lng: 77.3776,
+  image: 'https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=80',
+  transport: {
+    bus: {
+      available: 'Limited buses and local transport',
+      station: 'Ambasamudram Bus Stand',
+      distance: '45 km'
+    },
+    train: {
+      station: 'Ambasamudram Railway Station',
+      distance: '45 km',
+      frequency: 'Regular trains to nearby towns'
+    },
+    taxi: {
+      options: 'Private Cars and Taxis; Forest permission may be required'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'Government Hospital Ambasamudram',
+        distance: '45 km',
+        phone: '04634-250222',
+        address: 'Ambasamudram'
+      }
+    ],
+    police: [
+      {
+        name: 'Manimuthar Police Station',
+        distance: '30 km',
+        phone: '04634-255222',
+        address: 'Manimuthar'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Local Pharmacy',
+        distance: '30 km',
+        location: 'Manimuthar'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: 'Manjolai Forest Guest Accommodation',
+      price: '₹2,000/night',
+      rating: 4.1,
+      dist: '2 km',
+      image: 'https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=600&q=80',
+      phone: 'Forest Department Booking'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Local Tea Estate Canteen',
+      foodType: 'South Indian',
+      price: '₹250 for two',
+      rating: 4.1,
+      dist: '2 km',
+      address: 'Manjolai Hills'
+    }
+  ]
+},
+
+{
+  id: 'tn_shenbaga_devi',
+  name: 'Shenbaga Devi Falls',
+  district: 'Tenkasi',
+  category: 'waterfalls',
+  categoryName: 'Waterfalls & Nature',
+  rating: 4.6,
+  ratingCount: 4800,
+  entryFee: 'Free / Forest Entry Rules Apply',
+  openTime: '06:00 AM',
+  closeTime: '05:00 PM',
+  holiday: 'Subject to Weather & Forest Conditions',
+  bestTime: 'June to September',
+  shortDesc: 'A beautiful forest waterfall near Courtallam surrounded by dense greenery and the Western Ghats.',
+  longDesc: 'Shenbaga Devi Falls is located in the forested hills above Courtallam. The waterfall is surrounded by lush vegetation and is associated with the Shenbaga Devi Temple. Visitors can enjoy the natural beauty of the Western Ghats while following forest safety regulations.',
+  attractions: [
+    'Shenbaga Devi Falls',
+    'Shenbaga Devi Temple',
+    'Forest Trail',
+    'Western Ghats Scenery'
+  ],
+  history: 'The waterfall and temple are traditionally associated with Goddess Shenbaga Devi. The area has been an important pilgrimage and nature destination near Courtallam.',
+  lat: 8.9328,
+  lng: 77.2765,
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlkOlgDmt2moUvay4op7ypphbtE7K5IQl4Z5ZC2VdxQw&s=10',
+  transport: {
+    bus: {
+      available: 'Buses to Courtallam followed by local transport',
+      station: 'Courtallam Bus Stand',
+      distance: '2 km'
+    },
+    train: {
+      station: 'Tenkasi Junction Railway Station',
+      distance: '8 km',
+      frequency: 'Regular trains from major cities'
+    },
+    taxi: {
+      options: 'Auto Rickshaws and Private Taxis'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'Government Hospital Courtallam',
+        distance: '3 km',
+        phone: '04633-283254',
+        address: 'Courtallam'
+      }
+    ],
+    police: [
+      {
+        name: 'Courtallam Police Station',
+        distance: '2 km',
+        phone: '04633-283233',
+        address: 'Courtallam'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Sri Ram Pharmacy',
+        distance: '2 km',
+        location: 'Courtallam Main Road'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: 'Saaral Resort Courtallam',
+      price: '₹3,500/night',
+      rating: 4.3,
+      dist: '3 km',
+      image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80',
+      phone: '+91 4633 283100'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Border Rahmath Kadai',
+      foodType: 'Parotta & Non-Veg',
+      price: '₹350 for two',
+      rating: 4.7,
+      dist: '6 km',
+      address: 'Tenkasi-Shenkottai Road'
+    }
+  ]
+},
+
+{
+  id: 'tn_tenkasi_kasi_viswanathar',
+  name: 'Kasi Viswanathar Temple',
+  district: 'Tenkasi',
+  category: 'temples',
+  categoryName: 'Temples & Religious Places',
+  rating: 4.8,
+  ratingCount: 6700,
+  entryFee: 'Free',
+  openTime: '06:00 AM',
+  closeTime: '08:30 PM',
+  holiday: 'None',
+  bestTime: 'October to March',
+  shortDesc: 'A magnificent historic Shiva temple famous for its impressive Rajagopuram and traditional Dravidian architecture.',
+  longDesc: 'Kasi Viswanathar Temple is one of the most important historic temples in Tenkasi. Dedicated to Lord Shiva as Kasi Viswanathar, the temple is renowned for its towering Rajagopuram, intricate sculptures and traditional South Indian temple architecture.',
+  attractions: [
+    'Rajagopuram',
+    'Kasi Viswanathar Shrine',
+    'Temple Sculptures',
+    'Mandapams',
+    'Temple Architecture'
+  ],
+  history: 'The temple was built during the Pandya period and later developed by various rulers. Tenkasi itself grew around this important temple and is often associated with the southern counterpart of Varanasi.',
+  lat: 8.9590,
+  lng: 77.3152,
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOHCXd22ncyzKvB-rSgyZIOZK0ZcS4Uf4CGVB8k7w1DA&s=10',
+  transport: {
+    bus: {
+      available: 'Frequent City and Intercity Buses',
+      station: 'Tenkasi Bus Stand',
+      distance: '0.5 km'
+    },
+    train: {
+      station: 'Tenkasi Junction Railway Station',
+      distance: '1.5 km',
+      frequency: 'Regular trains to Chennai, Madurai and other cities'
+    },
+    taxi: {
+      options: 'Auto Rickshaws, Ola and Local Taxis'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'Government Hospital Tenkasi',
+        distance: '1.5 km',
+        phone: '04633-222222',
+        address: 'Tenkasi'
+      }
+    ],
+    police: [
+      {
+        name: 'Tenkasi Police Station',
+        distance: '1 km',
+        phone: '04633-222333',
+        address: 'Tenkasi'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Apollo Pharmacy',
+        distance: '1 km',
+        location: 'Tenkasi Main Road'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: 'Saaral Resort Courtallam',
+      price: '₹3,500/night',
+      rating: 4.3,
+      dist: '7 km',
+      image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80',
+      phone: '+91 4633 283100'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Hotel Aryaas',
+      foodType: 'South Indian Vegetarian',
+      price: '₹250 for two',
+      rating: 4.3,
+      dist: '1 km',
+      address: 'Tenkasi'
+    }
+  ]
+},
+
+{
+  id: 'tn_azhutham',
+  name: 'Aintharuvi (Five Falls)',
+  district: 'Tenkasi',
+  category: 'waterfalls',
+  categoryName: 'Waterfalls & Nature',
+  rating: 4.8,
+  ratingCount: 8300,
+  entryFee: 'Free',
+  openTime: '06:00 AM',
+  closeTime: '07:00 PM',
+  holiday: 'None',
+  bestTime: 'June to September',
+  shortDesc: 'A spectacular waterfall where the stream divides into five separate cascades, making it one of Courtallam’s major attractions.',
+  longDesc: 'Aintharuvi, popularly known as Five Falls, is one of the most famous waterfalls in the Courtallam region. The water divides into five distinct streams before falling over the rocks, creating a beautiful natural spectacle. It is a popular bathing and picnic destination during the monsoon season.',
+  attractions: [
+    'Five Cascading Streams',
+    'Natural Bathing Area',
+    'Western Ghats',
+    'Scenic Forest Surroundings'
+  ],
+  history: 'Aintharuvi has been a popular natural and pilgrimage destination in the Courtallam region for generations and forms one of the principal waterfalls visited by tourists.',
+  lat: 8.9370,
+  lng: 77.2770,
+  image: 'https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&fit=crop&w=800&q=80',
+  transport: {
+    bus: {
+      available: 'Buses and Local Transport from Tenkasi and Courtallam',
+      station: 'Five Falls Bus Stop',
+      distance: '0.5 km'
+    },
+    train: {
+      station: 'Tenkasi Junction Railway Station',
+      distance: '7 km',
+      frequency: 'Regular trains from major cities'
+    },
+    taxi: {
+      options: 'Auto Rickshaws and Private Taxis'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'Government Hospital Courtallam',
+        distance: '4 km',
+        phone: '04633-283254',
+        address: 'Courtallam'
+      }
+    ],
+    police: [
+      {
+        name: 'Courtallam Police Station',
+        distance: '3 km',
+        phone: '04633-283233',
+        address: 'Courtallam'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Local Pharmacy',
+        distance: '3 km',
+        location: 'Courtallam Main Road'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: 'Saaral Resort Courtallam',
+      price: '₹3,500/night',
+      rating: 4.3,
+      dist: '4 km',
+      image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80',
+      phone: '+91 4633 283100'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Local South Indian Restaurant',
+      foodType: 'South Indian',
+      price: '₹300 for two',
+      rating: 4.2,
+      dist: '3 km',
+      address: 'Courtallam'
+    }
+  ]
+},
+
+{
+  id: 'tn_kutralanathar',
+  name: 'Kutralanathar Temple',
+  district: 'Tenkasi',
+  category: 'temples',
+  categoryName: 'Temples & Religious Places',
+  rating: 4.7,
+  ratingCount: 5200,
+  entryFee: 'Free',
+  openTime: '06:00 AM',
+  closeTime: '08:30 PM',
+  holiday: 'None',
+  bestTime: 'June to September',
+  shortDesc: 'An ancient Shiva temple at Courtallam closely associated with the famous waterfalls and local traditions.',
+  longDesc: 'Kutralanathar Temple is an ancient Shiva temple located in Courtallam. The temple is dedicated to Lord Shiva and is closely connected with the spiritual traditions of the Courtallam region. Its location near the waterfalls makes it a popular combination of pilgrimage and tourism.',
+  attractions: [
+    'Kutralanathar Shrine',
+    'Temple Architecture',
+    'Traditional Sculptures',
+    'Nearby Courtallam Falls'
+  ],
+  history: 'The temple is traditionally associated with Sage Agasthya and has been an important Shaivite pilgrimage centre in the Courtallam region for centuries.',
+  lat: 8.9330,
+  lng: 77.2748,
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeIP0OK11_ODnlPWO2OMMmSxJRYTR5K5ZcrsqG4_9JTw&s=10',
+  transport: {
+    bus: {
+      available: 'Frequent buses from Tenkasi',
+      station: 'Courtallam Bus Stand',
+      distance: '0.5 km'
+    },
+    train: {
+      station: 'Tenkasi Junction Railway Station',
+      distance: '7 km',
+      frequency: 'Regular train services'
+    },
+    taxi: {
+      options: 'Auto Rickshaws and Private Taxis'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'Government Hospital Courtallam',
+        distance: '1 km',
+        phone: '04633-283254',
+        address: 'Courtallam'
+      }
+    ],
+    police: [
+      {
+        name: 'Courtallam Police Station',
+        distance: '0.5 km',
+        phone: '04633-283233',
+        address: 'Courtallam'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Sri Ram Pharmacy',
+        distance: '0.5 km',
+        location: 'Courtallam Main Road'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: 'Saaral Resort Courtallam',
+      price: '₹3,500/night',
+      rating: 4.3,
+      dist: '1 km',
+      image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80',
+      phone: '+91 4633 283100'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Border Rahmath Kadai',
+      foodType: 'Parotta & Non-Veg',
+      price: '₹350 for two',
+      rating: 4.7,
+      dist: '5 km',
+      address: 'Tenkasi-Shenkottai Road'
+    }
+  ]
+},
+{
   id: 'tn_dindigul_fort',
   name: 'Dindigul Fort',
   district: 'Dindigul',
@@ -3000,7 +3524,2466 @@ const TN_DATA = {
     }
   ]
 },
+{
+  id: 'tn_kailasanathar_temple',
+  name: 'Kailasanathar Temple',
+  district: 'Kanchipuram',
+  category: 'temples',
+  categoryName: 'Temples & Religious Places',
+  rating: 4.8,
+  ratingCount: 6800,
+  entryFee: 'Free',
+  openTime: '06:00 AM',
+  closeTime: '12:30 PM',
+  holiday: 'None',
+  bestTime: 'October to March',
+  shortDesc: 'An ancient Pallava-era Shiva temple famous for its beautiful sandstone architecture and intricate sculptures.',
+  longDesc: 'Kailasanathar Temple is one of the oldest structural temples in Kanchipuram. Built during the Pallava period, the temple is dedicated to Lord Shiva and is renowned for its elegant sandstone carvings, small shrines and historic Dravidian architecture.',
+  attractions: [
+    'Main Kailasanathar Shrine',
+    'Pallava Architecture',
+    'Sandstone Sculptures',
+    'Ancient Temple Shrines',
+    'Historic Inscriptions'
+  ],
+  history: 'The temple was built mainly by Pallava king Rajasimha in the late 7th and early 8th century. It is considered an important monument in the development of South Indian temple architecture.',
+  lat: 12.8476,
+  lng: 79.6947,
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbATH7LB_hOcSm16hanIe0WrR5hnlzSyNjtVLxZx2-Yw&s=10',
+  transport: {
+    bus: {
+      available: 'Frequent TNSTC buses from Chennai and nearby towns',
+      station: 'Kanchipuram Bus Stand',
+      distance: '3 km'
+    },
+    train: {
+      station: 'Kanchipuram Railway Station',
+      distance: '3.5 km',
+      frequency: 'Regular trains from Chennai and nearby cities'
+    },
+    taxi: {
+      options: 'Auto Rickshaws, Local Taxis & Rental Cars'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'Government Hospital Kanchipuram',
+        distance: '3 km',
+        phone: 'Verify current number',
+        address: 'Kanchipuram Town'
+      }
+    ],
+    police: [
+      {
+        name: 'Kanchipuram Police Station',
+        distance: '3 km',
+        phone: 'Verify current number',
+        address: 'Kanchipuram'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Local Pharmacies',
+        distance: '2 km',
+        location: 'Kanchipuram Town'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: 'Hotels in Kanchipuram',
+      price: '₹1,500–₹4,000/night',
+      rating: 4.2,
+      dist: '2–4 km',
+      image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80',
+      phone: 'Verify current contact details'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Kanchipuram Local Restaurants',
+      foodType: 'South Indian Vegetarian',
+      price: '₹400 for two',
+      rating: 4.4,
+      dist: '2–3 km',
+      address: 'Kanchipuram Town'
+    }
+  ]
+},
 
+{
+  id: 'tn_ekambareswarar',
+  name: 'Ekambareswarar Temple',
+  district: 'Kanchipuram',
+  category: 'temples',
+  categoryName: 'Temples & Religious Places',
+  rating: 4.8,
+  ratingCount: 12500,
+  entryFee: 'Free',
+  openTime: '06:00 AM',
+  closeTime: '09:00 PM',
+  holiday: 'None',
+  bestTime: 'October to March',
+  shortDesc: 'One of Kanchipuram’s largest Shiva temples, famous for its towering gopuram and ancient sacred mango tree.',
+  longDesc: 'Ekambareswarar Temple is a magnificent Hindu temple dedicated to Lord Shiva and is one of the major temples of Kanchipuram. The temple is famous for its massive Rajagopuram, spacious courtyards and the sacred mango tree associated with the temple tradition.',
+  attractions: [
+    'Tall Rajagopuram',
+    '1000 Pillar Hall',
+    'Sacred Mango Tree',
+    'Temple Corridors',
+    'Sculptures and Mandapams'
+  ],
+  history: 'The temple has ancient Pallava, Chola, Vijayanagara and Nayak connections and was expanded by several rulers over centuries. It is traditionally associated with the Pancha Bhoota Sthalas representing the element Earth.',
+  lat: 12.8478,
+  lng: 79.6997,
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTptUixhe8LXUCsj83eVfzJ0EoHk1oznjuJoWvhpXa5Ig&s=10',
+  transport: {
+    bus: {
+      available: 'Frequent City and Intercity Buses',
+      station: 'Kanchipuram Bus Stand',
+      distance: '1.5 km'
+    },
+    train: {
+      station: 'Kanchipuram Railway Station',
+      distance: '3 km',
+      frequency: 'Regular trains from Chennai and nearby cities'
+    },
+    taxi: {
+      options: 'Auto Rickshaws, Local Taxis & Rental Cars'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'Government Hospital Kanchipuram',
+        distance: '2 km',
+        phone: 'Verify current number',
+        address: 'Kanchipuram'
+      }
+    ],
+    police: [
+      {
+        name: 'Kanchipuram Police Station',
+        distance: '2 km',
+        phone: 'Verify current number',
+        address: 'Kanchipuram'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Local Pharmacies',
+        distance: '1 km',
+        location: 'Temple Area'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: 'Hotel GRT Regency Kanchipuram',
+      price: '₹4,000–₹6,000/night',
+      rating: 4.3,
+      dist: '3 km',
+      image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80',
+      phone: 'Verify current contact details'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Saravana Bhavan',
+      foodType: 'South Indian Vegetarian',
+      price: '₹400 for two',
+      rating: 4.4,
+      dist: '2 km',
+      address: 'Kanchipuram'
+    }
+  ]
+},
+
+{
+  id: 'tn_varadharaja_perumal',
+  name: 'Varadharaja Perumal Temple',
+  district: 'Kanchipuram',
+  category: 'temples',
+  categoryName: 'Temples & Religious Places',
+  rating: 4.9,
+  ratingCount: 11800,
+  entryFee: 'Free (Special Darshan may be applicable)',
+  openTime: '06:00 AM',
+  closeTime: '08:30 PM',
+  holiday: 'None',
+  bestTime: 'October to March',
+  shortDesc: 'A grand Vishnu temple famous for its magnificent gopurams, stone carvings and historic Vijayanagara architecture.',
+  longDesc: 'Varadharaja Perumal Temple is one of the most important Vaishnavite temples in Kanchipuram. Dedicated to Lord Varadharaja Perumal, the temple complex contains magnificent mandapams, detailed stone sculptures and impressive architectural features.',
+  attractions: [
+    '100 Pillar Hall',
+    'Stone Sculptures',
+    'Temple Gopurams',
+    'Golden and Silver Lizards',
+    'Anantha Saras Tank'
+  ],
+  history: 'The temple has ancient origins and was expanded significantly by Chola, Pandya and Vijayanagara rulers. It is one of the important Divya Desams revered in the Sri Vaishnava tradition.',
+  lat: 12.8186,
+  lng: 79.7247,
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrzkEF6k97H5v7wGa4BrtZNRCPFlvJ6FpqQHMtKAShaQ&s=10',
+  transport: {
+    bus: {
+      available: 'Frequent TNSTC and private buses',
+      station: 'Kanchipuram Bus Stand',
+      distance: '4 km'
+    },
+    train: {
+      station: 'Kanchipuram Railway Station',
+      distance: '5 km',
+      frequency: 'Regular trains from Chennai'
+    },
+    taxi: {
+      options: 'Auto Rickshaws, Local Taxis & Rental Cars'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'Government Hospital Kanchipuram',
+        distance: '4 km',
+        phone: 'Verify current number',
+        address: 'Kanchipuram'
+      }
+    ],
+    police: [
+      {
+        name: 'Kanchipuram Police Station',
+        distance: '4 km',
+        phone: 'Verify current number',
+        address: 'Kanchipuram'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Local Pharmacies',
+        distance: '3 km',
+        location: 'Kanchipuram Town'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: 'Hotels in Kanchipuram',
+      price: '₹1,500–₹4,500/night',
+      rating: 4.2,
+      dist: '3–5 km',
+      image: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=600&q=80',
+      phone: 'Verify current contact details'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Kanchipuram Local Restaurant',
+      foodType: 'South Indian Vegetarian',
+      price: '₹400 for two',
+      rating: 4.3,
+      dist: '3 km',
+      address: 'Kanchipuram'
+    }
+  ]
+},
+
+{
+  id: 'tn_kamakshi_amman',
+  name: 'Kamakshi Amman Temple',
+  district: 'Kanchipuram',
+  category: 'temples',
+  categoryName: 'Temples & Religious Places',
+  rating: 4.9,
+  ratingCount: 10500,
+  entryFee: 'Free',
+  openTime: '06:00 AM',
+  closeTime: '08:30 PM',
+  holiday: 'None',
+  bestTime: 'October to March',
+  shortDesc: 'A famous Shakti temple dedicated to Goddess Kamakshi and one of the most important spiritual landmarks of Kanchipuram.',
+  longDesc: 'Kamakshi Amman Temple is a major Hindu temple dedicated to Goddess Kamakshi, a form of Goddess Parvati. The temple is an important Shakti pilgrimage centre and is located in the heart of Kanchipuram.',
+  attractions: [
+    'Kamakshi Amman Shrine',
+    'Temple Gopuram',
+    'Golden Chariot',
+    'Temple Mandapams',
+    'Festival Celebrations'
+  ],
+  history: 'The temple has a long history associated with the religious traditions of Kanchipuram and the Shakti tradition. It is regarded as one of the prominent pilgrimage centres dedicated to Goddess Kamakshi.',
+  lat: 12.8431,
+  lng: 79.7036,
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6HE4EQtQRIcZgf6JIN_-3cK7YnEgpYjeNzAxleaV9Zg&s=10',
+  transport: {
+    bus: {
+      available: 'Frequent City and Intercity Buses',
+      station: 'Kanchipuram Bus Stand',
+      distance: '1 km'
+    },
+    train: {
+      station: 'Kanchipuram Railway Station',
+      distance: '3 km',
+      frequency: 'Regular trains from Chennai'
+    },
+    taxi: {
+      options: 'Auto Rickshaws, Local Taxis & Rental Cars'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'Government Hospital Kanchipuram',
+        distance: '2 km',
+        phone: 'Verify current number',
+        address: 'Kanchipuram'
+      }
+    ],
+    police: [
+      {
+        name: 'Kanchipuram Police Station',
+        distance: '1.5 km',
+        phone: 'Verify current number',
+        address: 'Kanchipuram'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Local Pharmacies',
+        distance: '1 km',
+        location: 'Kanchipuram Town'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: 'Hotel Tamilnadu Kanchipuram',
+      price: '₹1,500–₹3,000/night',
+      rating: 4.0,
+      dist: '2 km',
+      image: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=600&q=80',
+      phone: 'Verify current contact details'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Saravana Bhavan',
+      foodType: 'South Indian Vegetarian',
+      price: '₹400 for two',
+      rating: 4.4,
+      dist: '1 km',
+      address: 'Kanchipuram'
+    }
+  ]
+},
+
+{
+  id: 'tn_vedanthangal',
+  name: 'Vedanthangal Bird Sanctuary',
+  district: 'Kanchipuram',
+  category: 'wildlife',
+  categoryName: 'Wildlife & Bird Sanctuaries',
+  rating: 4.6,
+  ratingCount: 7600,
+  entryFee: '₹25–₹50 (Approx.)',
+  openTime: '06:00 AM',
+  closeTime: '06:00 PM',
+  holiday: 'None (Subject to Forest Department Conditions)',
+  bestTime: 'November to February',
+  shortDesc: 'One of India’s oldest bird sanctuaries, attracting thousands of migratory birds during the winter season.',
+  longDesc: 'Vedanthangal Bird Sanctuary is a famous wetland bird sanctuary in Tamil Nadu. During the migratory season, the sanctuary attracts large numbers of waterbirds including pelicans, painted storks, herons, egrets and other species.',
+  attractions: [
+    'Migratory Birds',
+    'Bird Watching',
+    'Wetland Ecosystem',
+    'Observation Points',
+    'Nature Photography'
+  ],
+  history: 'Vedanthangal has a long history of community-protected bird habitat. It was formally declared a bird sanctuary in the 20th century and is one of the oldest protected bird areas in India.',
+  lat: 12.5447,
+  lng: 79.8512,
+  image: 'https://images.unsplash.com/photo-1444464666168-49d633b86797?auto=format&fit=crop&w=800&q=80',
+  transport: {
+    bus: {
+      available: 'Buses available from Chengalpattu and nearby towns',
+      station: 'Vedanthangal Bus Stop',
+      distance: '1 km'
+    },
+    train: {
+      station: 'Chengalpattu Junction',
+      distance: '30 km',
+      frequency: 'Frequent trains from Chennai and nearby cities'
+    },
+    taxi: {
+      options: 'Private Taxis, Rental Cars & Local Transport'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'Government Hospital Madurantakam',
+        distance: '15 km',
+        phone: 'Verify current number',
+        address: 'Madurantakam'
+      }
+    ],
+    police: [
+      {
+        name: 'Madurantakam Police Station',
+        distance: '15 km',
+        phone: 'Verify current number',
+        address: 'Madurantakam'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Local Pharmacy',
+        distance: '12 km',
+        location: 'Madurantakam'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: 'Hotels near Chengalpattu',
+      price: '₹1,500–₹4,000/night',
+      rating: 4.1,
+      dist: '30 km',
+      image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80',
+      phone: 'Verify current contact details'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Local South Indian Restaurant',
+      foodType: 'South Indian',
+      price: '₹300 for two',
+      rating: 4.2,
+      dist: '2 km',
+      address: 'Vedanthangal'
+    }
+  ]
+},
+{
+  id: 'tn_nellaiappar_temple',
+  name: 'Nellaiappar Temple',
+  district: 'Tirunelveli',
+  category: 'temples',
+  categoryName: 'Temples & Religious Places',
+  rating: 4.8,
+  ratingCount: 12500,
+  entryFee: 'Free',
+  openTime: '06:00 AM',
+  closeTime: '09:00 PM',
+  holiday: 'None',
+  bestTime: 'October to March',
+  shortDesc: 'A magnificent historic Shiva temple famous for its musical pillars, massive gopurams and grand temple architecture.',
+  longDesc: 'Nellaiappar Temple is one of the most important historic temples in Tirunelveli. Dedicated to Lord Shiva as Nellaiappar and Goddess Kanthimathi, the temple is renowned for its large courtyards, beautiful sculptures, musical pillars and traditional Dravidian architecture.',
+  attractions: [
+    'Nellaiappar Shrine',
+    'Kanthimathi Amman Shrine',
+    'Musical Pillars',
+    'Thousand Pillar Hall',
+    'Temple Gopurams',
+    'Golden Lily Tank'
+  ],
+  history: 'The temple has ancient Pandya origins and was expanded by several rulers including the Nayaks. It is one of the important Shaivite pilgrimage centres of southern Tamil Nadu.',
+  lat: 8.7289,
+  lng: 77.7066,
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzKYwBWi5O8Lg-FYSLbOZoHMKKzI8DayKMuJ6z0JXiAQ&s=10',
+  transport: {
+    bus: {
+      available: 'Frequent TNSTC and private buses from major cities',
+      station: 'Tirunelveli New Bus Stand',
+      distance: '4 km'
+    },
+    train: {
+      station: 'Tirunelveli Junction Railway Station (TEN)',
+      distance: '3 km',
+      frequency: 'Frequent trains from Chennai, Madurai, Nagercoil and other cities'
+    },
+    taxi: {
+      options: 'Auto Rickshaws, Local Taxis & Rental Cars'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'Tirunelveli Medical College Hospital',
+        distance: '6 km',
+        phone: 'Verify current number',
+        address: 'Palayamkottai, Tirunelveli'
+      }
+    ],
+    police: [
+      {
+        name: 'Tirunelveli Town Police Station',
+        distance: '2 km',
+        phone: 'Verify current number',
+        address: 'Tirunelveli'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Local Pharmacies',
+        distance: '1 km',
+        location: 'Tirunelveli Town'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: 'Hotel Aryaas',
+      price: '₹1,500–₹3,000/night',
+      rating: 4.2,
+      dist: '3 km',
+      image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80',
+      phone: 'Verify current contact details'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Hotel Aryaas',
+      foodType: 'South Indian Vegetarian',
+      price: '₹400 for two',
+      rating: 4.4,
+      dist: '2 km',
+      address: 'Tirunelveli'
+    }
+  ]
+},
+
+{
+  id: 'tn_manimuthar_falls',
+  name: 'Manimuthar Waterfalls',
+  district: 'Tirunelveli',
+  category: 'waterfalls',
+  categoryName: 'Waterfalls & Nature',
+  rating: 4.7,
+  ratingCount: 6800,
+  entryFee: 'Free / Forest Entry Rules Apply',
+  openTime: '06:00 AM',
+  closeTime: '05:30 PM',
+  holiday: 'Subject to Weather & Forest Conditions',
+  bestTime: 'October to January',
+  shortDesc: 'A scenic waterfall surrounded by dense forests and the Western Ghats near Manimuthar Dam.',
+  longDesc: 'Manimuthar Waterfalls is a beautiful natural attraction located in the foothills of the Western Ghats. The waterfall is surrounded by dense greenery and is connected with the Manimuthar Dam and river system. It is a popular destination for nature lovers and weekend visitors.',
+  attractions: [
+    'Manimuthar Waterfalls',
+    'Manimuthar Dam',
+    'Forest Landscape',
+    'Scenic Mountain Views',
+    'Natural Pool'
+  ],
+  history: 'The Manimuthar region developed around the river, dam and surrounding Western Ghats forests and has become a popular nature destination in Tirunelveli district.',
+  lat: 8.6506,
+  lng: 77.4246,
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjSWgCTVSD3juSJny8DV6HMl9ui_0Ix5kpNh40m5MPIQ&s=10',
+  transport: {
+    bus: {
+      available: 'Buses from Tirunelveli and Ambasamudram',
+      station: 'Manimuthar Bus Stop',
+      distance: '5 km'
+    },
+    train: {
+      station: 'Ambasamudram Railway Station',
+      distance: '15 km',
+      frequency: 'Regular trains from Tirunelveli'
+    },
+    taxi: {
+      options: 'Private Taxis, Auto Rickshaws & Rental Cars'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'Government Hospital Ambasamudram',
+        distance: '18 km',
+        phone: 'Verify current number',
+        address: 'Ambasamudram'
+      }
+    ],
+    police: [
+      {
+        name: 'Manimuthar Police Station',
+        distance: '5 km',
+        phone: 'Verify current number',
+        address: 'Manimuthar'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Local Pharmacy',
+        distance: '5 km',
+        location: 'Manimuthar'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: 'Manimuthar Resorts',
+      price: '₹2,000–₹4,000/night',
+      rating: 4.1,
+      dist: '5 km',
+      image: 'https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=600&q=80',
+      phone: 'Verify current contact details'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Local South Indian Restaurant',
+      foodType: 'South Indian',
+      price: '₹300 for two',
+      rating: 4.2,
+      dist: '5 km',
+      address: 'Manimuthar'
+    }
+  ]
+},
+
+{
+  id: 'tn_agastiyar_falls',
+  name: 'Agastiyar Falls',
+  district: 'Tirunelveli',
+  category: 'waterfalls',
+  categoryName: 'Waterfalls & Nature',
+  rating: 4.8,
+  ratingCount: 7900,
+  entryFee: 'Free / Forest Entry Rules Apply',
+  openTime: '06:00 AM',
+  closeTime: '05:30 PM',
+  holiday: 'Subject to Weather & Forest Conditions',
+  bestTime: 'June to January',
+  shortDesc: 'A beautiful waterfall near Papanasam associated with Sage Agastya and surrounded by lush Western Ghats forests.',
+  longDesc: 'Agastiyar Falls is a scenic waterfall located near Papanasam in the Western Ghats. The waterfall is surrounded by dense vegetation and is traditionally associated with Sage Agastya. The area is popular among pilgrims and nature lovers.',
+  attractions: [
+    'Agastiyar Falls',
+    'Tamiraparani River',
+    'Western Ghats',
+    'Forest Scenery',
+    'Papanasam Temple'
+  ],
+  history: 'The waterfall is traditionally associated with Sage Agastya and the ancient spiritual traditions of the Papanasam region. It is an important natural and pilgrimage attraction.',
+  lat: 8.6916,
+  lng: 77.3576,
+  image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80',
+  transport: {
+    bus: {
+      available: 'Buses from Tirunelveli and Ambasamudram',
+      station: 'Papanasam Bus Stand',
+      distance: '4 km'
+    },
+    train: {
+      station: 'Ambasamudram Railway Station',
+      distance: '18 km',
+      frequency: 'Regular trains from Tirunelveli'
+    },
+    taxi: {
+      options: 'Private Taxis and Local Transport'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'Government Hospital Papanasam',
+        distance: '5 km',
+        phone: 'Verify current number',
+        address: 'Papanasam'
+      }
+    ],
+    police: [
+      {
+        name: 'Papanasam Police Station',
+        distance: '4 km',
+        phone: 'Verify current number',
+        address: 'Papanasam'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Local Pharmacy',
+        distance: '4 km',
+        location: 'Papanasam Main Road'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: 'Papanasam Guest House',
+      price: '₹1,500–₹3,000/night',
+      rating: 4.0,
+      dist: '5 km',
+      image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80',
+      phone: 'Verify current contact details'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Local Vegetarian Restaurant',
+      foodType: 'South Indian Vegetarian',
+      price: '₹300 for two',
+      rating: 4.2,
+      dist: '4 km',
+      address: 'Papanasam'
+    }
+  ]
+},
+
+{
+  id: 'tn_papanasam_temple',
+  name: 'Papanasanathar Temple',
+  district: 'Tirunelveli',
+  category: 'temples',
+  categoryName: 'Temples & Religious Places',
+  rating: 4.7,
+  ratingCount: 5600,
+  entryFee: 'Free',
+  openTime: '06:00 AM',
+  closeTime: '08:30 PM',
+  holiday: 'None',
+  bestTime: 'October to March',
+  shortDesc: 'An ancient Shiva temple located on the banks of the Tamiraparani River near the Western Ghats.',
+  longDesc: 'Papanasanathar Temple is a historic Shiva temple located at Papanasam. Dedicated to Lord Shiva, the temple is situated near the Tamiraparani River and is closely associated with the religious traditions of Sage Agastya.',
+  attractions: [
+    'Papanasanathar Shrine',
+    'Temple Architecture',
+    'Tamiraparani River',
+    'Agastiyar Falls',
+    'Traditional Sculptures'
+  ],
+  history: 'The temple has ancient origins and is traditionally connected with Sage Agastya and the sacred Papanasam region. It has been an important pilgrimage destination for generations.',
+  lat: 8.7048,
+  lng: 77.3485,
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTxqFn6ejYgpDwkrR0pQngmhwdbUB3x3qiuAW2csX-yw&s=10',
+  transport: {
+    bus: {
+      available: 'Regular buses from Tirunelveli and Ambasamudram',
+      station: 'Papanasam Bus Stand',
+      distance: '1 km'
+    },
+    train: {
+      station: 'Ambasamudram Railway Station',
+      distance: '15 km',
+      frequency: 'Regular trains from Tirunelveli'
+    },
+    taxi: {
+      options: 'Auto Rickshaws, Local Taxis & Rental Cars'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'Government Hospital Papanasam',
+        distance: '2 km',
+        phone: 'Verify current number',
+        address: 'Papanasam'
+      }
+    ],
+    police: [
+      {
+        name: 'Papanasam Police Station',
+        distance: '1 km',
+        phone: 'Verify current number',
+        address: 'Papanasam'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Local Pharmacies',
+        distance: '1 km',
+        location: 'Papanasam'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: 'Papanasam Guest House',
+      price: '₹1,500–₹3,000/night',
+      rating: 4.0,
+      dist: '2 km',
+      image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80',
+      phone: 'Verify current contact details'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Local South Indian Restaurant',
+      foodType: 'South Indian Vegetarian',
+      price: '₹300 for two',
+      rating: 4.2,
+      dist: '1 km',
+      address: 'Papanasam'
+    }
+  ]
+},
+
+{
+  id: 'tn_kalakkad_mundanthurai',
+  name: 'Kalakkad Mundanthurai Tiger Reserve',
+  district: 'Tirunelveli',
+  category: 'wildlife',
+  categoryName: 'Wildlife & Nature',
+  rating: 4.8,
+  ratingCount: 6300,
+  entryFee: 'Entry / Safari Fee Applicable',
+  openTime: '06:00 AM',
+  closeTime: '06:00 PM',
+  holiday: 'Subject to Forest Department Rules',
+  bestTime: 'October to March',
+  shortDesc: 'A vast protected forest landscape in the Western Ghats known for rich biodiversity, wildlife and scenic mountain habitats.',
+  longDesc: 'Kalakkad Mundanthurai Tiger Reserve is one of the major protected areas of the southern Western Ghats. The reserve contains dense forests, rivers, waterfalls and diverse wildlife habitats. It is an important destination for nature enthusiasts and wildlife lovers.',
+  attractions: [
+    'Wildlife Viewing',
+    'Western Ghats Forests',
+    'Bird Watching',
+    'Mountain Landscapes',
+    'Nature Trails'
+  ],
+  history: 'The reserve was formed by combining the Kalakkad and Mundanthurai wildlife areas and plays an important role in protecting the biodiversity of the southern Western Ghats.',
+  lat: 8.6405,
+  lng: 77.4510,
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzJJe9KuUKi21x8rrgwSPhgr2bt6bOXrs2s0w5C72V4QrzdCnoay2idet1&s=10',
+  transport: {
+    bus: {
+      available: 'Buses available to nearby towns',
+      station: 'Ambasamudram Bus Stand',
+      distance: '20 km'
+    },
+    train: {
+      station: 'Ambasamudram Railway Station',
+      distance: '20 km',
+      frequency: 'Regular trains from Tirunelveli'
+    },
+    taxi: {
+      options: 'Private Taxis and Forest-approved Vehicles'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'Government Hospital Ambasamudram',
+        distance: '22 km',
+        phone: 'Verify current number',
+        address: 'Ambasamudram'
+      }
+    ],
+    police: [
+      {
+        name: 'Mundanthurai Police Station',
+        distance: '10 km',
+        phone: 'Verify current number',
+        address: 'Mundanthurai'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Local Pharmacy',
+        distance: '20 km',
+        location: 'Ambasamudram'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: 'Forest Department Guest House',
+      price: '₹1,500–₹3,000/night',
+      rating: 4.1,
+      dist: '10 km',
+      image: 'https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=600&q=80',
+      phone: 'Verify current booking details'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Local South Indian Restaurant',
+      foodType: 'South Indian',
+      price: '₹300 for two',
+      rating: 4.1,
+      dist: '20 km',
+      address: 'Ambasamudram'
+    }
+  ]
+},
+{
+  id: 'tn_namakkal_fort',
+  name: 'Namakkal Fort',
+  district: 'Namakkal',
+  category: 'historical',
+  categoryName: 'Historical Sites & Monuments',
+  rating: 4.6,
+  ratingCount: 5800,
+  entryFee: 'Free',
+  openTime: '06:00 AM',
+  closeTime: '06:00 PM',
+  holiday: 'None',
+  bestTime: 'October to February',
+  shortDesc: 'A historic hilltop fort offering panoramic views of Namakkal town and surrounding landscapes.',
+  longDesc: 'Namakkal Fort is a historic fort situated on a massive rocky hill in the heart of Namakkal. The fort area provides beautiful views of the town and is closely associated with the famous Namakkal Anjaneyar Temple and Narasimha Temple.',
+  attractions: [
+    'Historic Fort Walls',
+    'Rock Hill',
+    'Hilltop Viewpoint',
+    'Panoramic City View',
+    'Nearby Ancient Temples'
+  ],
+  history: 'The fort has historical connections with several South Indian rulers and was an important strategic location because of its elevated rocky position.',
+  lat: 11.2216,
+  lng: 78.1674,
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvj5jM5rXF_f_PJpVYmPEObXiUj6pRRU95BZZo96Rlqw&s=10',
+  transport: {
+    bus: {
+      available: 'TNSTC buses from Salem, Trichy, Karur and nearby towns',
+      station: 'Namakkal Bus Stand',
+      distance: '2 km'
+    },
+    train: {
+      station: 'Namakkal Railway Station (NMKL)',
+      distance: '5 km',
+      frequency: 'Regular trains from Salem, Karur and nearby cities'
+    },
+    taxi: {
+      options: 'Local Taxis, Auto Rickshaws & Rental Cars'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'Government Hospital Namakkal',
+        distance: '2 km',
+        phone: 'Verify current number',
+        address: 'Namakkal Town'
+      }
+    ],
+    police: [
+      {
+        name: 'Namakkal Town Police Station',
+        distance: '2 km',
+        phone: 'Verify current number',
+        address: 'Namakkal'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Local Pharmacies',
+        distance: '1 km',
+        location: 'Namakkal Town'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: 'Hotels in Namakkal',
+      price: '₹1,500–₹4,000/night',
+      rating: 4.1,
+      dist: '1–3 km',
+      image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80',
+      phone: 'Verify current contact details'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Namakkal Local Restaurants',
+      foodType: 'South Indian & Non-Veg',
+      price: '₹400 for two',
+      rating: 4.3,
+      dist: '1–2 km',
+      address: 'Namakkal Town'
+    }
+  ]
+},
+
+{
+  id: 'tn_namakkal_anjaneyar',
+  name: 'Namakkal Anjaneyar Temple',
+  district: 'Namakkal',
+  category: 'temples',
+  categoryName: 'Temples & Religious Places',
+  rating: 4.9,
+  ratingCount: 12800,
+  entryFee: 'Free',
+  openTime: '06:00 AM',
+  closeTime: '09:00 PM',
+  holiday: 'None',
+  bestTime: 'October to March',
+  shortDesc: 'A famous Hanuman temple featuring one of the tallest open-air Anjaneyar idols in India.',
+  longDesc: 'Namakkal Anjaneyar Temple is one of the most famous religious attractions in Namakkal. The temple is dedicated to Lord Hanuman and is located at the foot of the Namakkal rock. The towering Anjaneyar idol is the main attraction and is worshipped by thousands of devotees.',
+  attractions: [
+    'Large Anjaneyar Idol',
+    'Narasimha Temple',
+    'Rock Hill',
+    'Temple Architecture',
+    'Religious Festivals'
+  ],
+  history: 'The temple is associated with the traditional legend of Lord Hanuman worshipping Lord Narasimha at Namakkal. The temple complex has developed over centuries as an important Vaishnavite pilgrimage centre.',
+  lat: 11.2218,
+  lng: 78.1670,
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCCx3vZKzkOKFnnLALpoZQYLzLZqXh9HwCJrTc0F4CHQ&s=10',
+  transport: {
+    bus: {
+      available: 'Frequent TNSTC and private buses',
+      station: 'Namakkal Bus Stand',
+      distance: '1.5 km'
+    },
+    train: {
+      station: 'Namakkal Railway Station',
+      distance: '5 km',
+      frequency: 'Regular trains from Salem and Karur'
+    },
+    taxi: {
+      options: 'Auto Rickshaws, Local Taxis & Rental Cars'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'Government Hospital Namakkal',
+        distance: '2 km',
+        phone: 'Verify current number',
+        address: 'Namakkal'
+      }
+    ],
+    police: [
+      {
+        name: 'Namakkal Town Police Station',
+        distance: '1.5 km',
+        phone: 'Verify current number',
+        address: 'Namakkal'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Local Pharmacies',
+        distance: '1 km',
+        location: 'Namakkal Town'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: 'Hotels in Namakkal',
+      price: '₹1,500–₹4,000/night',
+      rating: 4.2,
+      dist: '1–3 km',
+      image: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=600&q=80',
+      phone: 'Verify current contact details'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Local South Indian Restaurant',
+      foodType: 'South Indian Vegetarian',
+      price: '₹350 for two',
+      rating: 4.3,
+      dist: '1 km',
+      address: 'Namakkal Town'
+    }
+  ]
+},
+
+{
+  id: 'tn_narasimha_temple_namakkal',
+  name: 'Namagiri Narasimha Swamy Temple',
+  district: 'Namakkal',
+  category: 'temples',
+  categoryName: 'Temples & Religious Places',
+  rating: 4.8,
+  ratingCount: 7200,
+  entryFee: 'Free',
+  openTime: '06:00 AM',
+  closeTime: '08:30 PM',
+  holiday: 'None',
+  bestTime: 'October to March',
+  shortDesc: 'An ancient cave temple dedicated to Lord Narasimha, located beneath the historic Namakkal rock.',
+  longDesc: 'Namagiri Narasimha Swamy Temple is a historic cave temple dedicated to Lord Narasimha. The temple is carved into the rocky hill and is known for its ancient sculptures and religious significance.',
+  attractions: [
+    'Narasimha Swamy Shrine',
+    'Rock-Cut Cave Temple',
+    'Ancient Sculptures',
+    'Namagiri Thayar Shrine',
+    'Historic Temple Architecture'
+  ],
+  history: 'The temple is associated with ancient rock-cut temple traditions and is traditionally connected with the legend of Lord Narasimha and Lord Hanuman at Namakkal.',
+  lat: 11.2214,
+  lng: 78.1676,
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyzuahn5D4VdH8VmsI-wdNmeQvMf6rEs1q8kEVPtNhLA&s=10',
+  transport: {
+    bus: {
+      available: 'Frequent buses from Salem, Trichy and nearby towns',
+      station: 'Namakkal Bus Stand',
+      distance: '1.5 km'
+    },
+    train: {
+      station: 'Namakkal Railway Station',
+      distance: '5 km',
+      frequency: 'Regular train services'
+    },
+    taxi: {
+      options: 'Auto Rickshaws, Local Taxis & Rental Cars'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'Government Hospital Namakkal',
+        distance: '2 km',
+        phone: 'Verify current number',
+        address: 'Namakkal'
+      }
+    ],
+    police: [
+      {
+        name: 'Namakkal Town Police Station',
+        distance: '1.5 km',
+        phone: 'Verify current number',
+        address: 'Namakkal'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Local Pharmacies',
+        distance: '1 km',
+        location: 'Namakkal Town'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: 'Hotels in Namakkal',
+      price: '₹1,500–₹4,000/night',
+      rating: 4.2,
+      dist: '1–3 km',
+      image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80',
+      phone: 'Verify current contact details'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Namakkal Local Restaurant',
+      foodType: 'South Indian Vegetarian',
+      price: '₹350 for two',
+      rating: 4.3,
+      dist: '1 km',
+      address: 'Namakkal'
+    }
+  ]
+},
+
+{
+  id: 'tn_kolli_hills',
+  name: 'Kolli Hills',
+  district: 'Namakkal',
+  category: 'hills',
+  categoryName: 'Hill Stations & Nature',
+  rating: 4.8,
+  ratingCount: 14600,
+  entryFee: 'Free (Some Attractions May Have Entry Fees)',
+  openTime: '06:00 AM',
+  closeTime: '06:00 PM',
+  holiday: 'None',
+  bestTime: 'October to March',
+  shortDesc: 'A scenic Eastern Ghats hill station famous for 70 hairpin bends, waterfalls, viewpoints and lush forests.',
+  longDesc: 'Kolli Hills is a beautiful hill destination in the Eastern Ghats of Namakkal district. The region is famous for its winding mountain roads, waterfalls, viewpoints, forests and pleasant climate. It is a popular destination for trekking, nature photography and weekend trips.',
+  attractions: [
+    'Agaya Gangai Waterfalls',
+    'Seekuparai View Point',
+    'Masila Falls',
+    'Arapaleeswarar Temple',
+    '70 Hairpin Bends',
+    'Botanical Garden'
+  ],
+  history: 'Kolli Hills has been mentioned in ancient Tamil literature and is traditionally associated with the legendary ruler Valvil Ori. The hills have a long cultural and historical connection with the Tamil region.',
+  lat: 11.2480,
+  lng: 78.3360,
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsQhmjOXDu9W2v5rHJi8gfgtU0fjB5PFlMBhKmVC2eAQ&s=10',
+  transport: {
+    bus: {
+      available: 'Buses from Namakkal, Rasipuram and nearby towns',
+      station: 'Semmedu Bus Stand',
+      distance: '0.5 km'
+    },
+    train: {
+      station: 'Rasipuram Railway Station',
+      distance: '45 km',
+      frequency: 'Regular trains from Salem and Chennai'
+    },
+    taxi: {
+      options: 'Private Taxis, Rental Cars & Local Cabs'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'Government Hospital Semmedu',
+        distance: '1 km',
+        phone: 'Verify current number',
+        address: 'Semmedu, Kolli Hills'
+      }
+    ],
+    police: [
+      {
+        name: 'Kolli Hills Police Station',
+        distance: '1 km',
+        phone: 'Verify current number',
+        address: 'Semmedu, Kolli Hills'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Local Pharmacy',
+        distance: '1 km',
+        location: 'Semmedu'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: 'Kolli Hills Resorts',
+      price: '₹1,500–₹4,000/night',
+      rating: 4.2,
+      dist: '1–3 km',
+      image: 'https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=600&q=80',
+      phone: 'Verify current contact details'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Kolli Hills Local Restaurant',
+      foodType: 'South Indian',
+      price: '₹300 for two',
+      rating: 4.2,
+      dist: '1 km',
+      address: 'Semmedu, Kolli Hills'
+    }
+  ]
+},
+{
+  id: 'tn_thirumayam_fort',
+  name: 'Thirumayam Fort',
+  district: 'Pudukkottai',
+  category: 'historical',
+  categoryName: 'Historical Sites & Monuments',
+  rating: 4.6,
+  ratingCount: 6100,
+  entryFee: '₹25 (Approx.)',
+  openTime: '08:00 AM',
+  closeTime: '06:00 PM',
+  holiday: 'None',
+  bestTime: 'October to February',
+  shortDesc: 'A historic hill fort known for its massive walls, ancient temples and panoramic views of the surrounding countryside.',
+  longDesc: 'Thirumayam Fort is a historic fort built around a rocky hill in Pudukkottai district. The fort contains massive defensive walls, bastions and ancient cave temples dedicated to Shiva and Vishnu. It offers beautiful views of the surrounding landscape.',
+  attractions: [
+    'Historic Fort Walls',
+    'Rock-Cut Temples',
+    'Ancient Bastions',
+    'Hilltop Viewpoint',
+    'Narthamalai Landscape'
+  ],
+  history: 'The fort was constructed in the late 17th century by the Thondaiman rulers of Pudukkottai and later came under the control of various South Indian powers.',
+  lat: 10.2568,
+  lng: 78.7448,
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI-imXyZO5hA3BtqcQeAJsC1AyLaY28LzPrIooqWOutQ&s=10',
+  transport: {
+    bus: {
+      available: 'TNSTC buses from Pudukkottai, Karaikudi and nearby towns',
+      station: 'Thirumayam Bus Stand',
+      distance: '1 km'
+    },
+    train: {
+      station: 'Pudukkottai Railway Station',
+      distance: '20 km',
+      frequency: 'Regular trains from Chennai, Trichy and Madurai'
+    },
+    taxi: {
+      options: 'Local Taxis, Auto Rickshaws & Rental Cars'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'Government Hospital Thirumayam',
+        distance: '1.5 km',
+        phone: 'Verify current number',
+        address: 'Thirumayam, Pudukkottai'
+      }
+    ],
+    police: [
+      {
+        name: 'Thirumayam Police Station',
+        distance: '1 km',
+        phone: 'Verify current number',
+        address: 'Thirumayam'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Local Pharmacies',
+        distance: '1 km',
+        location: 'Thirumayam Town'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: 'Hotels in Pudukkottai',
+      price: '₹1,500–₹4,000/night',
+      rating: 4.1,
+      dist: '20 km',
+      image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80',
+      phone: 'Verify current contact details'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Local Thirumayam Restaurants',
+      foodType: 'South Indian',
+      price: '₹400 for two',
+      rating: 4.2,
+      dist: '1 km',
+      address: 'Thirumayam'
+    }
+  ]
+},
+
+{
+  id: 'tn_sittannavasal',
+  name: 'Sittannavasal Cave',
+  district: 'Pudukkottai',
+  category: 'historical',
+  categoryName: 'Historical Sites & Monuments',
+  rating: 4.7,
+  ratingCount: 5400,
+  entryFee: '₹10–₹25 (Approx.)',
+  openTime: '09:00 AM',
+  closeTime: '05:30 PM',
+  holiday: 'None',
+  bestTime: 'October to February',
+  shortDesc: 'An ancient rock-cut cave famous for beautiful Jain paintings, inscriptions and historic sculptures.',
+  longDesc: 'Sittannavasal is an important archaeological site in Pudukkottai district. The rock-cut cave contains ancient Jain paintings, sculptures and inscriptions. The site is particularly famous for its remarkable frescoes depicting lotus ponds, animals and people.',
+  attractions: [
+    'Ancient Jain Paintings',
+    'Rock-Cut Cave',
+    'Historic Inscriptions',
+    'Stone Sculptures',
+    'Archaeological Site'
+  ],
+  history: 'The cave is associated with Jainism and contains paintings believed to date from the Pallava-Pandya period. It is one of the most important examples of ancient mural art in Tamil Nadu.',
+  lat: 10.4606,
+  lng: 78.7187,
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsLHyUvETqTEYC7rwTD9hbopohCPDNvR5Ks4boZU-mXg&s=10',
+  transport: {
+    bus: {
+      available: 'Local buses from Pudukkottai and nearby villages',
+      station: 'Sittannavasal Bus Stop',
+      distance: '1 km'
+    },
+    train: {
+      station: 'Pudukkottai Railway Station',
+      distance: '16 km',
+      frequency: 'Regular trains from Trichy and Madurai'
+    },
+    taxi: {
+      options: 'Private Taxis, Auto Rickshaws & Rental Cars'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'Government Hospital Annavasal',
+        distance: '5 km',
+        phone: 'Verify current number',
+        address: 'Annavasal, Pudukkottai'
+      }
+    ],
+    police: [
+      {
+        name: 'Annavasal Police Station',
+        distance: '5 km',
+        phone: 'Verify current number',
+        address: 'Annavasal'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Local Pharmacy',
+        distance: '5 km',
+        location: 'Annavasal'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: 'Hotels in Pudukkottai',
+      price: '₹1,500–₹4,000/night',
+      rating: 4.1,
+      dist: '16 km',
+      image: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=600&q=80',
+      phone: 'Verify current contact details'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Local South Indian Restaurant',
+      foodType: 'South Indian Vegetarian',
+      price: '₹300 for two',
+      rating: 4.2,
+      dist: '5 km',
+      address: 'Annavasal'
+    }
+  ]
+},
+
+{
+  id: 'tn_narthamalai',
+  name: 'Narthamalai',
+  district: 'Pudukkottai',
+  category: 'historical',
+  categoryName: 'Historical Sites & Monuments',
+  rating: 4.7,
+  ratingCount: 4700,
+  entryFee: 'Free',
+  openTime: '06:00 AM',
+  closeTime: '06:00 PM',
+  holiday: 'None',
+  bestTime: 'October to February',
+  shortDesc: 'A historic hill region famous for ancient rock-cut temples and early Chola architectural monuments.',
+  longDesc: 'Narthamalai is a group of rocky hills containing several ancient temples and archaeological monuments. The area is especially famous for the Vijayalaya Choleeswaram temple and its early Chola architectural features.',
+  attractions: [
+    'Vijayalaya Choleeswaram',
+    'Rock-Cut Temples',
+    'Ancient Sculptures',
+    'Historic Inscriptions',
+    'Rocky Hill Landscape'
+  ],
+  history: 'Narthamalai contains important monuments from the early medieval period and is closely associated with the development of Chola temple architecture.',
+  lat: 10.5320,
+  lng: 78.7718,
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDFWt-MgRYNgf4PYCArA8tnt5cafB5vHPWsw_Wtev44g&s=10',
+  transport: {
+    bus: {
+      available: 'Local buses from Pudukkottai and nearby towns',
+      station: 'Narthamalai Bus Stop',
+      distance: '1 km'
+    },
+    train: {
+      station: 'Pudukkottai Railway Station',
+      distance: '18 km',
+      frequency: 'Regular trains from Trichy and Madurai'
+    },
+    taxi: {
+      options: 'Private Taxis, Auto Rickshaws & Rental Cars'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'Government Hospital Keeranur',
+        distance: '8 km',
+        phone: 'Verify current number',
+        address: 'Keeranur, Pudukkottai'
+      }
+    ],
+    police: [
+      {
+        name: 'Keeranur Police Station',
+        distance: '8 km',
+        phone: 'Verify current number',
+        address: 'Keeranur'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Local Pharmacy',
+        distance: '8 km',
+        location: 'Keeranur'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: 'Hotels in Pudukkottai',
+      price: '₹1,500–₹4,000/night',
+      rating: 4.1,
+      dist: '18 km',
+      image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80',
+      phone: 'Verify current contact details'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Local Narthamalai Restaurant',
+      foodType: 'South Indian',
+      price: '₹300 for two',
+      rating: 4.2,
+      dist: '1 km',
+      address: 'Narthamalai'
+    }
+  ]
+},
+
+{
+  id: 'tn_kudumiyanmalai',
+  name: 'Kudumiyanmalai Temple',
+  district: 'Pudukkottai',
+  category: 'temples',
+  categoryName: 'Temples & Religious Places',
+  rating: 4.7,
+  ratingCount: 4200,
+  entryFee: 'Free',
+  openTime: '06:00 AM',
+  closeTime: '08:00 PM',
+  holiday: 'None',
+  bestTime: 'October to March',
+  shortDesc: 'A historic Shiva temple known for magnificent sculptures, inscriptions and an important musical inscription.',
+  longDesc: 'Kudumiyanmalai Temple is a historic temple dedicated to Lord Shiva. The temple complex contains impressive stone sculptures and inscriptions, including a famous ancient musical inscription that provides valuable information about the history of Indian music.',
+  attractions: [
+    'Sikhanathar Shrine',
+    'Ancient Sculptures',
+    'Musical Inscription',
+    'Temple Mandapams',
+    'Rock-Cut Shrine'
+  ],
+  history: 'The temple has contributions from several South Indian dynasties including the Cholas, Pandyas and Nayaks. Its musical inscription is one of the notable archaeological records of ancient Indian music.',
+  lat: 10.3845,
+  lng: 78.6926,
+  image: 'https://cdn.s3waas.gov.in/s342e7aaa88b48137a16a1acd04ed91125/uploads/bfi_thumb/2018062037-e1554202508602-olwasufsahb55tlm55xx51pna1k62eakr0ku1jcrf8.jpg',
+  transport: {
+    bus: {
+      available: 'Buses from Pudukkottai and nearby towns',
+      station: 'Kudumiyanmalai Bus Stop',
+      distance: '0.5 km'
+    },
+    train: {
+      station: 'Pudukkottai Railway Station',
+      distance: '15 km',
+      frequency: 'Regular trains from Trichy and Madurai'
+    },
+    taxi: {
+      options: 'Auto Rickshaws, Local Taxis & Rental Cars'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'Government Hospital Pudukkottai',
+        distance: '15 km',
+        phone: 'Verify current number',
+        address: 'Pudukkottai'
+      }
+    ],
+    police: [
+      {
+        name: 'Kudumiyanmalai Police Station',
+        distance: '1 km',
+        phone: 'Verify current number',
+        address: 'Kudumiyanmalai'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Local Pharmacy',
+        distance: '1 km',
+        location: 'Kudumiyanmalai'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: 'Hotels in Pudukkottai',
+      price: '₹1,500–₹4,000/night',
+      rating: 4.1,
+      dist: '15 km',
+      image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80',
+      phone: 'Verify current contact details'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Local South Indian Restaurant',
+      foodType: 'South Indian Vegetarian',
+      price: '₹300 for two',
+      rating: 4.2,
+      dist: '1 km',
+      address: 'Kudumiyanmalai'
+    }
+  ]
+},
+
+{
+  id: 'tn_avudaiyarkoil',
+  name: 'Avudaiyarkoil Temple',
+  district: 'Pudukkottai',
+  category: 'temples',
+  categoryName: 'Temples & Religious Places',
+  rating: 4.8,
+  ratingCount: 5100,
+  entryFee: 'Free',
+  openTime: '06:00 AM',
+  closeTime: '08:30 PM',
+  holiday: 'None',
+  bestTime: 'October to March',
+  shortDesc: 'A remarkable Shiva temple famous for exquisite stone carvings and unique architectural features.',
+  longDesc: 'Avudaiyarkoil Temple, also known as Athmanathaswamy Temple, is a historic temple in Pudukkottai district. The temple is celebrated for its exceptional stone craftsmanship, intricate sculptures and unique architectural design. The shrine is associated with the saint Manikkavacakar.',
+  attractions: [
+    'Athmanathaswamy Shrine',
+    'Stone Sculptures',
+    'Temple Mandapams',
+    'Intricate Carvings',
+    'Historic Architecture'
+  ],
+  history: 'The temple is traditionally associated with Saint Manikkavacakar and has received patronage from several South Indian rulers. It is particularly famous for its extraordinary stone craftsmanship.',
+  lat: 9.8954,
+  lng: 79.1021,
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPYysDP_yK6QrFWLVWmaEX8tj_De3ED57Ibykrp0rHKA&s=10',
+  transport: {
+    bus: {
+      available: 'Buses from Pudukkottai, Aranthangi and nearby towns',
+      station: 'Avudaiyarkoil Bus Stand',
+      distance: '0.5 km'
+    },
+    train: {
+      station: 'Aranthangi Railway Station',
+      distance: '15 km',
+      frequency: 'Regular trains from nearby cities'
+    },
+    taxi: {
+      options: 'Local Taxis, Auto Rickshaws & Rental Cars'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'Government Hospital Avudaiyarkoil',
+        distance: '1 km',
+        phone: 'Verify current number',
+        address: 'Avudaiyarkoil'
+      }
+    ],
+    police: [
+      {
+        name: 'Avudaiyarkoil Police Station',
+        distance: '1 km',
+        phone: 'Verify current number',
+        address: 'Avudaiyarkoil'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Local Pharmacies',
+        distance: '1 km',
+        location: 'Avudaiyarkoil'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: 'Hotels in Pudukkottai',
+      price: '₹1,500–₹4,000/night',
+      rating: 4.1,
+      dist: '35 km',
+      image: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=600&q=80',
+      phone: 'Verify current contact details'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Local South Indian Restaurant',
+      foodType: 'South Indian Vegetarian',
+      price: '₹300 for two',
+      rating: 4.2,
+      dist: '1 km',
+      address: 'Avudaiyarkoil'
+    }
+  ]
+},
+
+{
+  id: 'tn_pudukkottai_museum',
+  name: 'Government Museum Pudukkottai',
+  district: 'Pudukkottai',
+  category: 'museum',
+  categoryName: 'Museums & Cultural Attractions',
+  rating: 4.5,
+  ratingCount: 3200,
+  entryFee: '₹10–₹20 (Approx.)',
+  openTime: '09:30 AM',
+  closeTime: '05:30 PM',
+  holiday: 'Friday',
+  bestTime: 'October to March',
+  shortDesc: 'A historic museum displaying archaeological artefacts, sculptures, coins and cultural objects from the region.',
+  longDesc: 'Government Museum Pudukkottai houses an important collection of archaeological and cultural artefacts from Pudukkottai and surrounding areas. Visitors can see sculptures, inscriptions, coins, bronzes and objects representing the rich history of Tamil Nadu.',
+  attractions: [
+    'Archaeological Artefacts',
+    'Stone Sculptures',
+    'Bronze Images',
+    'Ancient Coins',
+    'Historical Inscriptions'
+  ],
+  history: 'The museum was established to preserve and showcase the archaeological and cultural heritage of the former Pudukkottai region and surrounding areas.',
+  lat: 10.3797,
+  lng: 78.8205,
+  image: 'https://images.unsplash.com/photo-1564399579883-451a5d44ec08?auto=format&fit=crop&w=800&q=80',
+  transport: {
+    bus: {
+      available: 'Frequent TNSTC buses from nearby towns',
+      station: 'Pudukkottai Bus Stand',
+      distance: '2 km'
+    },
+    train: {
+      station: 'Pudukkottai Railway Station',
+      distance: '2 km',
+      frequency: 'Regular trains from Chennai, Trichy and Madurai'
+    },
+    taxi: {
+      options: 'Auto Rickshaws, Local Taxis & Rental Cars'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'Government Hospital Pudukkottai',
+        distance: '2 km',
+        phone: 'Verify current number',
+        address: 'Pudukkottai Town'
+      }
+    ],
+    police: [
+      {
+        name: 'Pudukkottai Town Police Station',
+        distance: '2 km',
+        phone: 'Verify current number',
+        address: 'Pudukkottai'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Local Pharmacies',
+        distance: '1 km',
+        location: 'Pudukkottai Town'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: 'Hotels in Pudukkottai',
+      price: '₹1,500–₹4,000/night',
+      rating: 4.1,
+      dist: '2–3 km',
+      image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80',
+      phone: 'Verify current contact details'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Pudukkottai Local Restaurants',
+      foodType: 'South Indian',
+      price: '₹400 for two',
+      rating: 4.3,
+      dist: '1–2 km',
+      address: 'Pudukkottai Town'
+    }
+  ]
+},
+{
+  id: 'tn_thiruvarur_thyagaraja',
+  name: 'Thyagarajaswamy Temple',
+  district: 'Thiruvarur',
+  category: 'temples',
+  categoryName: 'Temples & Religious Places',
+  rating: 4.9,
+  ratingCount: 9800,
+  entryFee: 'Free',
+  openTime: '06:00 AM',
+  closeTime: '09:00 PM',
+  holiday: 'None',
+  bestTime: 'October to March',
+  shortDesc: 'A magnificent ancient Shiva temple famous for its massive complex, sacred traditions and grand temple chariot.',
+  longDesc: 'Thyagarajaswamy Temple is one of the most important historic Shiva temples in Tamil Nadu. Located in Thiruvarur, the temple is dedicated to Lord Thyagaraja and Goddess Neelothpalambal. It is renowned for its huge temple complex, intricate sculptures, sacred tank and the famous Thiruvarur temple car.',
+  attractions: [
+    'Thyagarajaswamy Shrine',
+    'Kamalalayam Temple Tank',
+    'Temple Chariot',
+    'Stone Sculptures',
+    'Temple Mandapams',
+    'Musical Traditions'
+  ],
+  history: 'The temple has ancient Chola origins and received extensive patronage from Chola rulers. Thiruvarur is closely associated with the Saiva Nayanmars and the development of Tamil devotional traditions.',
+  lat: 10.7722,
+  lng: 79.6368,
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0aB-k03uBHFGH9RFFBauu7xKqPF8fS9QAmBFAbACJ0g&s=10',
+  transport: {
+    bus: {
+      available: 'Frequent TNSTC buses from Thanjavur, Nagapattinam, Kumbakonam and nearby towns',
+      station: 'Thiruvarur Bus Stand',
+      distance: '1 km'
+    },
+    train: {
+      station: 'Thiruvarur Junction Railway Station (TVR)',
+      distance: '2 km',
+      frequency: 'Regular trains from Chennai, Thanjavur and Nagapattinam'
+    },
+    taxi: {
+      options: 'Local Taxis, Auto Rickshaws & Rental Cars'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'Government Hospital Thiruvarur',
+        distance: '2 km',
+        phone: 'Verify current number',
+        address: 'Thiruvarur Town'
+      }
+    ],
+    police: [
+      {
+        name: 'Thiruvarur Town Police Station',
+        distance: '1.5 km',
+        phone: 'Verify current number',
+        address: 'Thiruvarur'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Local Pharmacies',
+        distance: '1 km',
+        location: 'Thiruvarur Town'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: 'Hotel in Thiruvarur',
+      price: '₹1,500–₹3,500/night',
+      rating: 4.1,
+      dist: '1–3 km',
+      image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80',
+      phone: 'Verify current contact details'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Thiruvarur Local Restaurants',
+      foodType: 'South Indian Vegetarian & Non-Veg',
+      price: '₹400 for two',
+      rating: 4.3,
+      dist: '1 km',
+      address: 'Thiruvarur Town'
+    }
+  ]
+},
+
+{
+  id: 'tn_muthupet_mangroves',
+  name: 'Muthupet Mangrove Forest',
+  district: 'Thiruvarur',
+  category: 'nature',
+  categoryName: 'Nature & Wildlife',
+  rating: 4.7,
+  ratingCount: 6200,
+  entryFee: 'Boat Ride / Entry Fee Applicable',
+  openTime: '06:00 AM',
+  closeTime: '06:00 PM',
+  holiday: 'Subject to Weather Conditions',
+  bestTime: 'October to March',
+  shortDesc: 'A beautiful mangrove ecosystem famous for boat rides, coastal scenery and rich birdlife.',
+  longDesc: 'Muthupet Mangrove Forest is a unique coastal ecosystem located at the southern end of the Cauvery delta. The mangrove forests spread across the lagoon and channels provide habitat for many birds, fish and other wildlife. Boat rides offer visitors an opportunity to explore the scenic mangrove landscape.',
+  attractions: [
+    'Mangrove Forest',
+    'Boat Ride',
+    'Muthupet Lagoon',
+    'Bird Watching',
+    'Coastal Landscape'
+  ],
+  history: 'The Muthupet mangrove ecosystem has developed along the coastal wetlands of the Cauvery delta and plays an important role in protecting the coastline and supporting biodiversity.',
+  lat: 10.4007,
+  lng: 79.4950,
+  image: 'https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=800&q=80',
+  transport: {
+    bus: {
+      available: 'TNSTC buses from Thiruvarur, Pattukkottai and nearby towns',
+      station: 'Muthupet Bus Stand',
+      distance: '7 km'
+    },
+    train: {
+      station: 'Muthupet Railway Station',
+      distance: '8 km',
+      frequency: 'Limited regional train services'
+    },
+    taxi: {
+      options: 'Private Taxis, Auto Rickshaws & Local Cabs'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'Government Hospital Muthupet',
+        distance: '8 km',
+        phone: 'Verify current number',
+        address: 'Muthupet'
+      }
+    ],
+    police: [
+      {
+        name: 'Muthupet Police Station',
+        distance: '8 km',
+        phone: 'Verify current number',
+        address: 'Muthupet'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Local Pharmacy',
+        distance: '7 km',
+        location: 'Muthupet Town'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: 'Hotels in Muthupet',
+      price: '₹1,200–₹3,000/night',
+      rating: 4.0,
+      dist: '7–10 km',
+      image: 'https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=600&q=80',
+      phone: 'Verify current contact details'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Muthupet Local Restaurant',
+      foodType: 'South Indian & Seafood',
+      price: '₹500 for two',
+      rating: 4.2,
+      dist: '7 km',
+      address: 'Muthupet'
+    }
+  ]
+},
+
+{
+  id: 'tn_mannargudi_rajagopalaswamy',
+  name: 'Rajagopalaswamy Temple',
+  district: 'Thiruvarur',
+  category: 'temples',
+  categoryName: 'Temples & Religious Places',
+  rating: 4.8,
+  ratingCount: 7600,
+  entryFee: 'Free',
+  openTime: '06:00 AM',
+  closeTime: '09:00 PM',
+  holiday: 'None',
+  bestTime: 'October to March',
+  shortDesc: 'A grand Vaishnavite temple in Mannargudi famous for its massive gopurams, sculptures and religious festivals.',
+  longDesc: 'Rajagopalaswamy Temple is a historic Vishnu temple located in Mannargudi. Dedicated to Lord Rajagopalaswamy, the temple is one of the important Vaishnavite pilgrimage centres in the Cauvery delta region and is known for its large temple complex and beautiful architecture.',
+  attractions: [
+    'Rajagopalaswamy Shrine',
+    'Temple Gopurams',
+    'Large Temple Tank',
+    'Stone Sculptures',
+    'Festival Celebrations'
+  ],
+  history: 'The temple has ancient Chola-period origins and was expanded by later rulers. Mannargudi became an important religious centre around the temple over several centuries.',
+  lat: 10.6665,
+  lng: 79.4500,
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW_2ok36RpSWzMY13rBBXINUrdmKkgXJ7kXusWUlIq-w&s=10',
+  transport: {
+    bus: {
+      available: 'Frequent buses from Thiruvarur, Thanjavur and Kumbakonam',
+      station: 'Mannargudi Bus Stand',
+      distance: '1 km'
+    },
+    train: {
+      station: 'Mannargudi Railway Station',
+      distance: '2 km',
+      frequency: 'Regular trains to Thiruvarur and nearby cities'
+    },
+    taxi: {
+      options: 'Auto Rickshaws, Local Taxis & Rental Cars'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'Government Hospital Mannargudi',
+        distance: '2 km',
+        phone: 'Verify current number',
+        address: 'Mannargudi'
+      }
+    ],
+    police: [
+      {
+        name: 'Mannargudi Town Police Station',
+        distance: '1.5 km',
+        phone: 'Verify current number',
+        address: 'Mannargudi'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Local Pharmacies',
+        distance: '1 km',
+        location: 'Mannargudi Town'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: 'Hotels in Mannargudi',
+      price: '₹1,500–₹3,500/night',
+      rating: 4.1,
+      dist: '1–3 km',
+      image: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=600&q=80',
+      phone: 'Verify current contact details'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Mannargudi Local Restaurants',
+      foodType: 'South Indian Vegetarian',
+      price: '₹350 for two',
+      rating: 4.3,
+      dist: '1 km',
+      address: 'Mannargudi'
+    }
+  ]
+},
+
+{
+  id: 'tn_koothanur_saraswathi',
+  name: 'Koothanur Saraswathi Temple',
+  district: 'Thiruvarur',
+  category: 'temples',
+  categoryName: 'Temples & Religious Places',
+  rating: 4.7,
+  ratingCount: 4300,
+  entryFee: 'Free',
+  openTime: '06:00 AM',
+  closeTime: '08:30 PM',
+  holiday: 'None',
+  bestTime: 'October to March',
+  shortDesc: 'A famous temple dedicated to Goddess Saraswathi, attracting students and devotees seeking blessings for education.',
+  longDesc: 'Koothanur Saraswathi Temple is a well-known temple dedicated to Goddess Saraswathi, the Hindu goddess of learning and knowledge. The temple is particularly popular among students and families performing special prayers for education and academic success.',
+  attractions: [
+    'Saraswathi Amman Shrine',
+    'Temple Architecture',
+    'Educational Rituals',
+    'Navaratri Celebrations',
+    'Traditional Sculptures'
+  ],
+  history: 'The temple has a long association with the worship of Goddess Saraswathi and is traditionally regarded as one of the prominent Saraswathi temples in Tamil Nadu.',
+  lat: 10.8742,
+  lng: 79.6016,
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfTITyeSbnuehXeUXso3usWvUHuQLUlhm_6rnrheyLAw&s',
+  transport: {
+    bus: {
+      available: 'Local buses from Thiruvarur and Mayiladuthurai',
+      station: 'Koothanur Bus Stop',
+      distance: '0.5 km'
+    },
+    train: {
+      station: 'Mayiladuthurai Junction',
+      distance: '20 km',
+      frequency: 'Frequent trains from Chennai and Trichy'
+    },
+    taxi: {
+      options: 'Auto Rickshaws, Local Taxis & Rental Cars'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'Government Hospital Nannilam',
+        distance: '10 km',
+        phone: 'Verify current number',
+        address: 'Nannilam'
+      }
+    ],
+    police: [
+      {
+        name: 'Nannilam Police Station',
+        distance: '10 km',
+        phone: 'Verify current number',
+        address: 'Nannilam'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Local Pharmacy',
+        distance: '8 km',
+        location: 'Nannilam'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: 'Hotels in Thiruvarur',
+      price: '₹1,500–₹3,500/night',
+      rating: 4.1,
+      dist: '20 km',
+      image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80',
+      phone: 'Verify current contact details'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Local South Indian Restaurant',
+      foodType: 'South Indian Vegetarian',
+      price: '₹300 for two',
+      rating: 4.2,
+      dist: '0.5 km',
+      address: 'Koothanur'
+    }
+  ]
+},
+
+{
+  id: 'tn_muthupet_lagoon',
+  name: 'Muthupet Lagoon',
+  district: 'Thiruvarur',
+  category: 'nature',
+  categoryName: 'Nature & Coastal Attractions',
+  rating: 4.6,
+  ratingCount: 3900,
+  entryFee: 'Free / Boat Ride Charges Applicable',
+  openTime: '06:00 AM',
+  closeTime: '06:00 PM',
+  holiday: 'Subject to Weather Conditions',
+  bestTime: 'October to March',
+  shortDesc: 'A peaceful coastal lagoon surrounded by mangroves, waterways and rich birdlife.',
+  longDesc: 'Muthupet Lagoon is a scenic coastal wetland where several waterways meet near the sea. The lagoon is surrounded by mangrove forests and provides a habitat for birds and aquatic species. It is a peaceful destination for boating and nature photography.',
+  attractions: [
+    'Coastal Lagoon',
+    'Mangrove Forests',
+    'Boat Ride',
+    'Bird Watching',
+    'Sunset Views'
+  ],
+  history: 'The lagoon forms part of the Muthupet coastal wetland ecosystem and has traditionally supported fishing communities and local biodiversity.',
+  lat: 10.3950,
+  lng: 79.5000,
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPmcWgNRFUTVRi1D8at9PTm6L0MGSAtKsqHuLlrhVjfg&s=10',
+  transport: {
+    bus: {
+      available: 'TNSTC buses from Muthupet and Thiruvarur',
+      station: 'Muthupet Bus Stand',
+      distance: '7 km'
+    },
+    train: {
+      station: 'Muthupet Railway Station',
+      distance: '8 km',
+      frequency: 'Limited regional train services'
+    },
+    taxi: {
+      options: 'Private Taxis, Auto Rickshaws & Local Cabs'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'Government Hospital Muthupet',
+        distance: '8 km',
+        phone: 'Verify current number',
+        address: 'Muthupet'
+      }
+    ],
+    police: [
+      {
+        name: 'Muthupet Police Station',
+        distance: '8 km',
+        phone: 'Verify current number',
+        address: 'Muthupet'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Local Pharmacy',
+        distance: '7 km',
+        location: 'Muthupet'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: 'Hotels in Muthupet',
+      price: '₹1,200–₹3,000/night',
+      rating: 4.0,
+      dist: '7–10 km',
+      image: 'https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=600&q=80',
+      phone: 'Verify current contact details'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Muthupet Seafood Restaurant',
+      foodType: 'Seafood & South Indian',
+      price: '₹500 for two',
+      rating: 4.2,
+      dist: '7 km',
+      address: 'Muthupet'
+    }
+  ]
+},
+{
+  id: 'tn_agaya_gangai',
+  name: 'Agaya Gangai Waterfalls',
+  district: 'Namakkal',
+  category: 'waterfalls',
+  categoryName: 'Waterfalls & Nature',
+  rating: 4.8,
+  ratingCount: 9100,
+  entryFee: 'Entry Fee Applicable',
+  openTime: '06:00 AM',
+  closeTime: '05:00 PM',
+  holiday: 'Subject to Weather Conditions',
+  bestTime: 'October to January',
+  shortDesc: 'A spectacular waterfall in Kolli Hills surrounded by dense forests and dramatic rocky landscapes.',
+  longDesc: 'Agaya Gangai Waterfalls is one of the major natural attractions of Kolli Hills. The waterfall drops dramatically through a rocky gorge surrounded by dense vegetation. Reaching the falls involves a steep trail with many steps, making it an adventurous nature experience.',
+  attractions: [
+    'Agaya Gangai Waterfalls',
+    'Forest Trail',
+    'Rocky Gorge',
+    'Kolli Hills Landscape',
+    'Nature Photography'
+  ],
+  history: 'The waterfall is closely associated with the natural and cultural heritage of Kolli Hills and attracts visitors seeking both adventure and scenic beauty.',
+  lat: 11.2674,
+  lng: 78.3445,
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgFCcOiwi8eJDhI0kVGacM276pr1Kbeu5E4hmffQc4rw&s=10',
+  transport: {
+    bus: {
+      available: 'Buses to Kolli Hills followed by local transport',
+      station: 'Semmedu Bus Stand',
+      distance: '12 km'
+    },
+    train: {
+      station: 'Rasipuram Railway Station',
+      distance: '55 km',
+      frequency: 'Regular trains from Salem and nearby cities'
+    },
+    taxi: {
+      options: 'Private Taxis and Local Jeeps'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'Government Hospital Semmedu',
+        distance: '12 km',
+        phone: 'Verify current number',
+        address: 'Semmedu, Kolli Hills'
+      }
+    ],
+    police: [
+      {
+        name: 'Kolli Hills Police Station',
+        distance: '12 km',
+        phone: 'Verify current number',
+        address: 'Semmedu, Kolli Hills'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Local Pharmacy',
+        distance: '12 km',
+        location: 'Semmedu'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: 'Kolli Hills Resorts',
+      price: '₹1,500–₹4,000/night',
+      rating: 4.2,
+      dist: '12 km',
+      image: 'https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=600&q=80',
+      phone: 'Verify current contact details'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Local Kolli Hills Restaurant',
+      foodType: 'South Indian',
+      price: '₹300 for two',
+      rating: 4.2,
+      dist: '12 km',
+      address: 'Semmedu, Kolli Hills'
+    }
+  ]
+},
+
+{
+  id: 'tn_arapaleeswarar',
+  name: 'Arapaleeswarar Temple',
+  district: 'Namakkal',
+  category: 'temples',
+  categoryName: 'Temples & Religious Places',
+  rating: 4.7,
+  ratingCount: 5100,
+  entryFee: 'Free',
+  openTime: '06:00 AM',
+  closeTime: '08:00 PM',
+  holiday: 'None',
+  bestTime: 'October to March',
+  shortDesc: 'An ancient Shiva temple located in the scenic Kolli Hills and surrounded by beautiful mountain landscapes.',
+  longDesc: 'Arapaleeswarar Temple is an ancient Shiva temple situated at the top of Kolli Hills. The temple is dedicated to Lord Shiva and is an important pilgrimage destination surrounded by the natural beauty of the Eastern Ghats.',
+  attractions: [
+    'Arapaleeswarar Shrine',
+    'Ancient Temple Architecture',
+    'Mountain Views',
+    'Traditional Sculptures',
+    'Nearby Agaya Gangai Falls'
+  ],
+  history: 'The temple is traditionally associated with the ancient cultural history of Kolli Hills and is believed to have been an important Shaivite pilgrimage centre for centuries.',
+  lat: 11.2702,
+  lng: 78.3418,
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJhSx7PXsSZXNzTFXZM6WWzg6pLAeaIjynsvp0fTiW5A&s=10',
+  transport: {
+    bus: {
+      available: 'Buses from Namakkal and Rasipuram',
+      station: 'Semmedu Bus Stand',
+      distance: '2 km'
+    },
+    train: {
+      station: 'Rasipuram Railway Station',
+      distance: '50 km',
+      frequency: 'Regular trains from Salem and Chennai'
+    },
+    taxi: {
+      options: 'Private Taxis, Local Jeeps & Rental Cars'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'Government Hospital Semmedu',
+        distance: '2 km',
+        phone: 'Verify current number',
+        address: 'Semmedu, Kolli Hills'
+      }
+    ],
+    police: [
+      {
+        name: 'Kolli Hills Police Station',
+        distance: '2 km',
+        phone: 'Verify current number',
+        address: 'Semmedu'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Local Pharmacy',
+        distance: '2 km',
+        location: 'Semmedu'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: 'Kolli Hills Resorts',
+      price: '₹1,500–₹4,000/night',
+      rating: 4.2,
+      dist: '2 km',
+      image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80',
+      phone: 'Verify current contact details'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Kolli Hills Local Restaurant',
+      foodType: 'South Indian Vegetarian',
+      price: '₹300 for two',
+      rating: 4.2,
+      dist: '2 km',
+      address: 'Semmedu, Kolli Hills'
+    }
+  ]
+},
+{
+  id: 'tn_manjo_lai',
+  name: 'Manjolai Hills',
+  district: 'Tirunelveli',
+  category: 'hills',
+  categoryName: 'Hill Stations & Nature',
+  rating: 4.8,
+  ratingCount: 5900,
+  entryFee: 'Forest Entry / Permit Applicable',
+  openTime: '06:00 AM',
+  closeTime: '05:30 PM',
+  holiday: 'Subject to Forest Department Restrictions',
+  bestTime: 'October to March',
+  shortDesc: 'A misty hill destination surrounded by tea plantations, forests and spectacular Western Ghats landscapes.',
+  longDesc: 'Manjolai Hills is a scenic high-altitude region of the Western Ghats known for tea plantations, cool weather, mist-covered mountains and dense forests. The winding mountain roads and viewpoints make it an attractive destination for nature lovers.',
+  attractions: [
+    'Manjolai Tea Estates',
+    'Kakkachi',
+    'Kothaiyar',
+    'Mountain Viewpoints',
+    'Western Ghats Forests'
+  ],
+  history: 'Manjolai developed as a plantation region in the Western Ghats and is known for its tea estates, natural scenery and rich biodiversity.',
+  lat: 8.6524,
+  lng: 77.3776,
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIH_qKiCWo_A0eXU0e8NO0jN1Jf1FQ-59qkOLCkzDf3Q&s=10',
+  transport: {
+    bus: {
+      available: 'Limited buses and local transport',
+      station: 'Ambasamudram Bus Stand',
+      distance: '45 km'
+    },
+    train: {
+      station: 'Ambasamudram Railway Station',
+      distance: '45 km',
+      frequency: 'Regular trains to nearby towns'
+    },
+    taxi: {
+      options: 'Private Cars and Taxis; Forest permission may be required'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'Government Hospital Ambasamudram',
+        distance: '45 km',
+        phone: 'Verify current number',
+        address: 'Ambasamudram'
+      }
+    ],
+    police: [
+      {
+        name: 'Manimuthar Police Station',
+        distance: '30 km',
+        phone: 'Verify current number',
+        address: 'Manimuthar'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Local Pharmacy',
+        distance: '30 km',
+        location: 'Manimuthar'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: 'Forest Guest Accommodation',
+      price: '₹2,000–₹4,000/night',
+      rating: 4.1,
+      dist: '2 km',
+      image: 'https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=600&q=80',
+      phone: 'Verify current booking details'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Local Tea Estate Canteen',
+      foodType: 'South Indian',
+      price: '₹250 for two',
+      rating: 4.1,
+      dist: '2 km',
+      address: 'Manjolai Hills'
+    }
+  ]
+},
 {
   id: 'tn_sirumalai',
   name: 'Sirumalai Hills',
@@ -9024,6 +12007,533 @@ const TN_DATA = {
       rating: null,
       dist: '1–3 km',
       address: 'Virudhunagar Town'
+    }
+  ]
+},
+{
+  id: 'tn_marudamalai',
+  name: 'Marudamalai Murugan Temple',
+  district: 'Coimbatore',
+  category: 'temples',
+  categoryName: 'Temples & Religious Places',
+  rating: 4.8,
+  ratingCount: 8500,
+  entryFee: 'Free (Special Darshan ₹10 - ₹100)',
+  openTime: '06:00 AM',
+  closeTime: '08:30 PM',
+  holiday: 'None (Open daily)',
+  bestTime: 'October to March',
+  shortDesc: 'A famous hilltop Murugan temple surrounded by scenic Western Ghats and lush greenery.',
+  longDesc: 'Marudamalai Murugan Temple is a popular hill temple dedicated to Lord Murugan, located on Marudamalai Hill near Coimbatore. The temple is surrounded by beautiful natural scenery and is an important pilgrimage destination in Tamil Nadu. Visitors can enjoy both the spiritual atmosphere and panoramic views of the surrounding hills.',
+  attractions: [
+    'Marudamalai Murugan Temple',
+    'Hilltop View',
+    'Temple Elephant',
+    'Scenic Western Ghats',
+    'Steps and Hill Road'
+  ],
+  history: 'The temple is traditionally associated with Lord Murugan and has been an important pilgrimage centre for centuries. The surrounding Marudamalai Hills are also known for their natural beauty and traditional medicinal plants.',
+  lat: 11.0448,
+  lng: 76.8767,
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkXwT6unimp8v1HnuqxE_EbxdVVE25q4LCxAB7632smQ&s=10',
+  transport: {
+    bus: {
+      available: 'Frequent City Buses',
+      station: 'Gandhipuram Central Bus Stand',
+      distance: '12 km'
+    },
+    train: {
+      station: 'Coimbatore Junction Railway Station (CBE)',
+      distance: '13 km',
+      frequency: 'Regular trains from Chennai, Bangalore, Kochi and other major cities'
+    },
+    taxi: {
+      options: 'Ola, Uber, Auto Rickshaws and Local Taxis'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'Kovai Medical Center and Hospital',
+        distance: '10 km',
+        phone: '0422-4323800',
+        address: 'Avinashi Road, Coimbatore'
+      },
+      {
+        name: 'Government Coimbatore Medical College Hospital',
+        distance: '13 km',
+        phone: '0422-2301393',
+        address: 'Trichy Road, Coimbatore'
+      }
+    ],
+    police: [
+      {
+        name: 'Marudamalai Police Station',
+        distance: '2 km',
+        phone: '0422-2422444',
+        address: 'Marudamalai, Coimbatore'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Apollo Pharmacy',
+        distance: '5 km',
+        location: 'Thondamuthur Road'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: 'Vivanta Coimbatore',
+      price: '₹5,000/night',
+      rating: 4.5,
+      dist: '12 km',
+      image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80',
+      phone: '+91 422 6681000'
+    },
+    {
+      name: 'Hotel Kiscol Grands',
+      price: '₹2,500/night',
+      rating: 4.3,
+      dist: '10 km',
+      image: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=600&q=80',
+      phone: '+91 422 4227777'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Annapoorna',
+      foodType: 'South Indian Vegetarian',
+      price: '₹250 for two',
+      rating: 4.5,
+      dist: '10 km',
+      address: 'R.S. Puram, Coimbatore'
+    },
+    {
+      name: 'Junior Kuppanna',
+      foodType: 'South Indian Non-Veg',
+      price: '₹500 for two',
+      rating: 4.4,
+      dist: '11 km',
+      address: 'R.S. Puram, Coimbatore'
+    }
+  ]
+},
+{
+  id: 'tn_eachanari',
+  name: 'Eachanari Vinayagar Temple',
+  district: 'Coimbatore',
+  category: 'temples',
+  categoryName: 'Temples & Religious Places',
+  rating: 4.7,
+  ratingCount: 6200,
+  entryFee: 'Free',
+  openTime: '05:00 AM',
+  closeTime: '10:00 PM',
+  holiday: 'None (Open daily)',
+  bestTime: 'Throughout the year',
+  shortDesc: 'One of Coimbatore’s most famous Ganesha temples, known for its large and beautiful Vinayagar idol.',
+  longDesc: 'Eachanari Vinayagar Temple is a popular Hindu temple dedicated to Lord Ganesha. The temple is located on the Coimbatore-Pollachi Road and attracts devotees throughout the year. The large Vinayagar idol is the main attraction of this historic temple.',
+  attractions: [
+    'Large Vinayagar Idol',
+    'Main Temple Shrine',
+    'Temple Architecture',
+    'Festival Celebrations'
+  ],
+  history: 'The temple is believed to have been established when a large Vinayagar idol was being transported towards Coimbatore and the vehicle could not proceed further at Eachanari. The idol was subsequently installed at the present location.',
+  lat: 10.9364,
+  lng: 76.9638,
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBRFMn3kfhyGz7gQXw1fl1lMF0Vdp5-_HdKHMyTPuZjg&s=10',
+  transport: {
+    bus: {
+      available: 'Frequent City and Intercity Buses',
+      station: 'Gandhipuram Central Bus Stand',
+      distance: '12 km'
+    },
+    train: {
+      station: 'Coimbatore Junction Railway Station (CBE)',
+      distance: '11 km',
+      frequency: 'Regular trains from major cities'
+    },
+    taxi: {
+      options: 'Ola, Uber, Auto Rickshaws and Local Taxis'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'KMCH',
+        distance: '12 km',
+        phone: '0422-4323800',
+        address: 'Avinashi Road, Coimbatore'
+      },
+      {
+        name: 'Government Coimbatore Medical College Hospital',
+        distance: '10 km',
+        phone: '0422-2301393',
+        address: 'Trichy Road, Coimbatore'
+      }
+    ],
+    police: [
+      {
+        name: 'Eachanari Police Station',
+        distance: '1 km',
+        phone: '0422-2273333',
+        address: 'Eachanari, Coimbatore'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Apollo Pharmacy',
+        distance: '1 km',
+        location: 'Eachanari Main Road'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: 'Hotel Kiscol Grands',
+      price: '₹2,500/night',
+      rating: 4.3,
+      dist: '11 km',
+      image: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=600&q=80',
+      phone: '+91 422 4227777'
+    },
+    {
+      name: 'Vivanta Coimbatore',
+      price: '₹5,000/night',
+      rating: 4.5,
+      dist: '12 km',
+      image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80',
+      phone: '+91 422 6681000'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Annapoorna',
+      foodType: 'South Indian Vegetarian',
+      price: '₹250 for two',
+      rating: 4.5,
+      dist: '10 km',
+      address: 'R.S. Puram, Coimbatore'
+    },
+    {
+      name: 'Junior Kuppanna',
+      foodType: 'Traditional South Indian Non-Veg',
+      price: '₹500 for two',
+      rating: 4.4,
+      dist: '9 km',
+      address: 'Ukkadam, Coimbatore'
+    }
+  ]
+},
+{
+  id: 'tn_isha',
+  name: 'Isha Yoga Center',
+  district: 'Coimbatore',
+  category: 'nature',
+  categoryName: 'Nature & Spiritual Places',
+  rating: 4.7,
+  ratingCount: 18500,
+  entryFee: 'Free Entry (Some activities may have charges)',
+  openTime: '06:00 AM',
+  closeTime: '08:00 PM',
+  holiday: 'None (Open daily)',
+  bestTime: 'September to March',
+  shortDesc: 'A popular spiritual and nature destination at the foothills of the Velliangiri Mountains.',
+  longDesc: 'Isha Yoga Center is a major spiritual destination located near the Velliangiri Mountains in Coimbatore. It is famous for the Adiyogi statue, Dhyanalinga, and its peaceful natural surroundings. The centre attracts visitors interested in spirituality, yoga, meditation and nature.',
+  attractions: [
+    'Adiyogi Statue',
+    'Dhyanalinga',
+    'Yoga Center',
+    'Velliangiri Foothills',
+    'Suryakund and Chandrakund'
+  ],
+  history: 'Isha Yoga Center was founded by Sadhguru Jagadish Vasudev and has developed into an international centre for yoga, meditation and spiritual activities.',
+  lat: 10.9720,
+  lng: 76.7367,
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk7unB0WBB9kcrAiFamZU4zOFYjEn-w_DcMMSkqmWVUw&s=10',
+  transport: {
+    bus: {
+      available: 'Buses available from Coimbatore',
+      station: 'Gandhipuram Central Bus Stand',
+      distance: '35 km'
+    },
+    train: {
+      station: 'Coimbatore Junction Railway Station (CBE)',
+      distance: '32 km',
+      frequency: 'Regular trains from major cities'
+    },
+    taxi: {
+      options: 'Ola, Uber, Local Taxis and Private Cabs'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'Government Hospital, Thondamuthur',
+        distance: '15 km',
+        phone: '0422-2617222',
+        address: 'Thondamuthur, Coimbatore'
+      }
+    ],
+    police: [
+      {
+        name: 'Alandurai Police Station',
+        distance: '8 km',
+        phone: '0422-2612222',
+        address: 'Alandurai, Coimbatore'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Local Pharmacy',
+        distance: '8 km',
+        location: 'Alandurai'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: 'Isha Yoga Center Stay',
+      price: 'Varies by accommodation',
+      rating: 4.5,
+      dist: '0 km',
+      image: 'https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=600&q=80',
+      phone: '1800-891-1111'
+    },
+    {
+      name: 'Vivanta Coimbatore',
+      price: '₹5,000/night',
+      rating: 4.5,
+      dist: '35 km',
+      image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80',
+      phone: '+91 422 6681000'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Isha Food Court',
+      foodType: 'Vegetarian',
+      price: '₹200 for two',
+      rating: 4.4,
+      dist: '0.5 km',
+      address: 'Isha Yoga Center'
+    },
+    {
+      name: 'Annapoorna',
+      foodType: 'South Indian Vegetarian',
+      price: '₹250 for two',
+      rating: 4.5,
+      dist: '30 km',
+      address: 'Coimbatore'
+    }
+  ]
+},
+{
+  id: 'tn_black_thunder',
+  name: 'Black Thunder Water Theme Park',
+  district: 'Coimbatore',
+  category: 'entertainment',
+  categoryName: 'Entertainment & Adventure',
+  rating: 4.4,
+  ratingCount: 9800,
+  entryFee: 'Around ₹700 - ₹1,000',
+  openTime: '10:00 AM',
+  closeTime: '06:00 PM',
+  holiday: 'None (Subject to maintenance)',
+  bestTime: 'October to March',
+  shortDesc: 'A large water theme park near Mettupalayam offering exciting rides and family entertainment.',
+  longDesc: 'Black Thunder is a popular water theme park located near Mettupalayam in the Nilgiri foothills. It offers a variety of water rides, slides, wave pools and family entertainment activities. The park is a popular weekend destination for families and groups.',
+  attractions: [
+    'Water Slides',
+    'Wave Pool',
+    'Family Rides',
+    'Kids Water Zone',
+    'Adventure Rides'
+  ],
+  history: 'Black Thunder was developed as a major amusement and water theme park in the Nilgiri foothills and has become a popular recreational destination in the Coimbatore region.',
+  lat: 11.3008,
+  lng: 76.9392,
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfwIzUFekWXgNdMBe8S-dtPLgpg-3Vffm0-asw3_X0eA&s=10',
+  transport: {
+    bus: {
+      available: 'Frequent Buses to Mettupalayam',
+      station: 'Mettupalayam Bus Stand',
+      distance: '4 km'
+    },
+    train: {
+      station: 'Mettupalayam Railway Station',
+      distance: '4 km',
+      frequency: 'Regular trains from Coimbatore'
+    },
+    taxi: {
+      options: 'Ola, Uber, Auto Rickshaws and Local Taxis'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'Government Hospital Mettupalayam',
+        distance: '5 km',
+        phone: '04254-222222',
+        address: 'Mettupalayam, Coimbatore District'
+      }
+    ],
+    police: [
+      {
+        name: 'Mettupalayam Police Station',
+        distance: '4 km',
+        phone: '04254-222222',
+        address: 'Mettupalayam'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Apollo Pharmacy',
+        distance: '4 km',
+        location: 'Mettupalayam'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: 'Black Thunder Resort',
+      price: '₹3,500/night',
+      rating: 4.2,
+      dist: '0.5 km',
+      image: 'https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=600&q=80',
+      phone: '+91 4254 222555'
+    },
+    {
+      name: 'Hotel Kiscol Grands',
+      price: '₹2,500/night',
+      rating: 4.3,
+      dist: '35 km',
+      image: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=600&q=80',
+      phone: '+91 422 4227777'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Local South Indian Restaurant',
+      foodType: 'South Indian',
+      price: '₹300 for two',
+      rating: 4.2,
+      dist: '3 km',
+      address: 'Mettupalayam'
+    },
+    {
+      name: 'Annapoorna',
+      foodType: 'South Indian Vegetarian',
+      price: '₹250 for two',
+      rating: 4.5,
+      dist: '30 km',
+      address: 'Coimbatore'
+    }
+  ]
+},
+{
+  id: 'tn_valparai',
+  name: 'Valparai',
+  district: 'Coimbatore',
+  category: 'nature',
+  categoryName: 'Nature & Hill Stations',
+  rating: 4.8,
+  ratingCount: 11200,
+  entryFee: 'No General Entry Fee',
+  openTime: '06:00 AM',
+  closeTime: '06:00 PM',
+  holiday: 'None',
+  bestTime: 'September to March',
+  shortDesc: 'A beautiful hill destination known for tea estates, forests, waterfalls and wildlife.',
+  longDesc: 'Valparai is a scenic hill station in the Anamalai Hills of the Western Ghats. It is surrounded by tea and coffee plantations, dense forests, waterfalls and wildlife habitats. The journey to Valparai through winding mountain roads offers spectacular views.',
+  attractions: [
+    'Tea Estates',
+    'Aliyar Dam',
+    'Monkey Falls',
+    'Sholayar Dam',
+    'Nallamudi View Point',
+    'Anamalai Tiger Reserve'
+  ],
+  history: 'Valparai developed as a plantation region during the colonial period and is now known for its tea estates, biodiversity and spectacular Western Ghats landscape.',
+  lat: 10.3260,
+  lng: 76.9510,
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFxIKEkAD0OABdd9XoULfiVL0nlb9cjGG8HQI8-T4nUA&s=10',
+  transport: {
+    bus: {
+      available: 'Government and Private Buses',
+      station: 'Pollachi Bus Stand',
+      distance: '65 km'
+    },
+    train: {
+      station: 'Pollachi Railway Station',
+      distance: '65 km',
+      frequency: 'Regular trains from Coimbatore and nearby cities'
+    },
+    taxi: {
+      options: 'Private Taxis, Rental Cars and Local Cabs'
+    }
+  },
+  emergency: {
+    hospitals: [
+      {
+        name: 'Government Hospital Valparai',
+        distance: '2 km',
+        phone: '04253-222222',
+        address: 'Valparai, Coimbatore District'
+      }
+    ],
+    police: [
+      {
+        name: 'Valparai Police Station',
+        distance: '2 km',
+        phone: '04253-222222',
+        address: 'Valparai'
+      }
+    ],
+    pharmacies: [
+      {
+        name: 'Local Pharmacy',
+        distance: '1 km',
+        location: 'Valparai Town'
+      }
+    ]
+  },
+  hotels: [
+    {
+      name: "Sinclair's Retreat",
+      price: '₹4,000/night',
+      rating: 4.2,
+      dist: '2 km',
+      image: 'https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=600&q=80',
+      phone: '+91 4253 222222'
+    },
+    {
+      name: 'Stanmore Garden Bungalow',
+      price: '₹5,000/night',
+      rating: 4.4,
+      dist: '5 km',
+      image: 'https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=600&q=80',
+      phone: '+91 4253 222333'
+    }
+  ],
+  restaurants: [
+    {
+      name: 'Hotel Saravana Bhavan',
+      foodType: 'South Indian Vegetarian',
+      price: '₹300 for two',
+      rating: 4.2,
+      dist: '2 km',
+      address: 'Valparai Town'
+    },
+    {
+      name: 'Local Valparai Restaurant',
+      foodType: 'South Indian',
+      price: '₹350 for two',
+      rating: 4.1,
+      dist: '1.5 km',
+      address: 'Valparai'
     }
   ]
 }
